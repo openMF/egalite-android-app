@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="?bordereffect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/personal_info"
+                    android:textAppearance="@style/text_Large"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/img_photo"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/profile" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_name_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_gender_val"
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_dob_val"
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="?bordereffect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/lay_between_padding"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/address_info"
+                    android:textAppearance="@style/text_Large"
+                    android:textStyle="bold" />
+
+                <com.bfsi.egalite.support.MyTextView
+                    android:id="@+id/id_history_address_val"
+                    style="?textTitle"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textAppearance="@style/text_Small" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_state_val"
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_country_val"
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </LinearLayout>
+
+                <com.bfsi.egalite.support.MyTextView
+                    android:id="@+id/id_history_zipcode_val"
+                    style="?textTitle"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="@style/text_Small" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="?bordereffect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/lay_between_padding"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/other_info"
+                    android:textAppearance="@style/text_Large"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_email_val"
+                        style="?textTitle"
+                        android:layout_width="175dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_contactno_val"
+                        style="?textTitle"
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_martial_status_val"
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_profession_val"
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </LinearLayout>
+
+                <com.bfsi.egalite.support.MyTextView
+                    android:id="@+id/id_history_remarks_val"
+                    style="?textTitle"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="@style/text_Small" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="?bordereffect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/lay_between_padding"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/account_info"
+                    android:textAppearance="@style/text_Large"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_account_val"
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_accountremarks_val"
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_accounttype_val"
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_accountccy_val"
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </LinearLayout>
+
+                <com.bfsi.egalite.support.MyTextView
+                    android:id="@+id/id_history_accounttype_remarks_val"
+                    style="?textTitle"
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAppearance="@style/text_Small" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="?bordereffect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/lay_between_padding"
+                android:clickable="false"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/documents"
+                    android:textAppearance="@style/text_Large"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="false"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/check_history_idproof1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="false"
+                        android:textAppearance="@style/text_Extra_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_idproof1"
+                        style="?textTitle"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text=""
+                        android:textAppearance="@style/text_Extra_Small" />
+
+                    <ImageView
+                        android:id="@+id/img_history_idproof1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/profile" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_tag1_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="false"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/check_history_idproof2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="false"
+                        android:textAppearance="@style/text_Extra_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_idproof2"
+                        style="?textTitle"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text=""
+                        android:textAppearance="@style/text_Extra_Small" />
+
+                    <ImageView
+                        android:id="@+id/img_history_idproof2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/profile" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_tag2_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="false"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/check_history_idproof3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="false"
+                        android:textAppearance="@style/text_Extra_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_idproof3"
+                        style="?textTitle"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text=""
+                        android:textAppearance="@style/text_Extra_Small" />
+
+                    <ImageView
+                        android:id="@+id/img_history_idproof3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/profile" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_history_tag3_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

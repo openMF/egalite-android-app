@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/titleBar"
+    android:orientation="horizontal"
+    android:id="@+id/rellay_custom_title"
+    android:padding="@dimen/TitleIcon" >
+
+    <ImageView
+        android:id="@+id/btn_left"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter" />
+
+    <Spinner
+        android:id="@+id/spinner_custom_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/btn_left"
+        android:background="@drawable/spinner_ab_default_example"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="3dp"
+        android:spinnerMode="dropdown"
+        android:textAppearance="@style/text_Medium" />
+
+    <com.bfsi.mfi.support.MyTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="2dp"
+        android:text="@string/app_name"
+         android:layout_toRightOf="@+id/spinner_custom_title"
+        android:textAppearance="@style/text_Small"
+        android:textColor="@color/textColor"
+        android:textIsSelectable="false" />
+
+    <ImageView
+        android:id="@+id/btn_right"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

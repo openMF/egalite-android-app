@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?bordereffect"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="@dimen/layout_padding"
+    android:orientation="vertical"
+    android:padding="1dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linlay_all_name"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_name"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:text="@string/Name"
+                android:textAppearance="@style/text_Medium" />
+
+            <ImageView
+                android:id="@+id/img_all_namearrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:src="@drawable/arrowdown" />
+        </LinearLayout>
+
+        <View
+            style="?view"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical" />
+
+        <LinearLayout
+            android:id="@+id/linlay_all_accno"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_accno"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:text="@string/column_acno"
+                android:textAppearance="@style/text_Medium" />
+
+            <ImageView
+                android:id="@+id/img_all_accnoarrow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:src="@drawable/arrowdown"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <View
+            style="?view"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical" />
+
+        <LinearLayout
+            android:id="@+id/linlay_all_amount"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_amount"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:text="@string/maturity_amt"
+                android:textAppearance="@style/text_Medium" />
+
+            <ImageView
+                android:id="@+id/img_all_amountarrow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:src="@drawable/arrowdown"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        style="?view"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" />
+
+    <ListView
+        android:id="@+id/list_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

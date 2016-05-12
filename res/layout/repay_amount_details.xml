@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:paddingBottom="1dp" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.5" >
+
+                <LinearLayout
+                    android:id="@+id/date_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/date"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/transparent"
+                        android:text="@string/Date"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                style="?view"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.2" >
+
+                <LinearLayout
+                    android:id="@+id/component_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center"
+                    android:orientation="horizontal" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/component"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/transparent"
+                        android:text="@string/type"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                style="?view"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:id="@+id/amtdue_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center"
+                    android:orientation="horizontal" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/amtdue"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="0.29"
+                        android:background="@color/transparent"
+                        android:text="@string/amount"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                style="?view"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:id="@+id/amtpaid_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|center"
+                    android:orientation="horizontal" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/amtpaid"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/transparent"
+                        android:text="@string/amountpaid"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                style="?view"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/table_layout"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+        <ListView
+            android:id="@+id/listid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:clickable="false"
+            android:focusable="false" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

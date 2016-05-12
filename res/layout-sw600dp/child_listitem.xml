@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="4dp" >
+
+        <TextView
+            android:id="@+id/txv_ccy"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="@dimen/layout_padding"
+            android:text="Currency"
+            android:textAppearance="@style/text_Medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txv_ccy_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/layout_padding"
+            android:text="IND"
+            android:textAppearance="@style/text_Medium"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txv_cashin"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:padding="@dimen/layout_padding"
+            android:text="Cash In"
+            android:textAppearance="@style/text_Medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txv_cashin_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/layout_padding"
+            android:text=""
+            android:textAppearance="@style/text_Medium"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txv_cashout"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:padding="@dimen/layout_padding"
+            android:text="Cash OUT"
+            android:textAppearance="@style/text_Medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txv_cashout_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/layout_padding"
+            android:text=""
+            android:textAppearance="@style/text_Extra_Small"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txv_openingbal"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:padding="@dimen/layout_padding"
+            android:text="Opening Balance"
+            android:textAppearance="@style/text_Medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txv_openingbal_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/layout_padding"
+            android:text=""
+            android:textAppearance="@style/text_Medium"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp" >
+
+        <TextView
+            android:id="@+id/txv_currentbal"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:padding="@dimen/layout_padding"
+            android:text="Current Balance"
+            android:textAppearance="@style/text_Medium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txv_currentbal_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/layout_padding"
+            android:text=""
+            android:textAppearance="@style/text_Medium"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

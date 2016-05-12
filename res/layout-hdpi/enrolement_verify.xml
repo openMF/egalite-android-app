@@ -1,0 +1,646 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/layout_padding" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TableLayout
+                style="?bordereffect"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vfirstname"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_firstname_val"
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vmiddlename"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_middlename_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vlastname"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_lastname_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vgender"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_gender_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vdateofbirth"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_dob_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabrow_resident"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vresidentialstatus"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_residental_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabrow_nationality"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vnatinality"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_nationality_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vaddress1"
+                        android:textAppearance="@style/text_Small" />
+
+                    <FrameLayout
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <com.bfsi.egalite.support.MyTextView
+                            android:id="@+id/id_verify_address1_val"
+                            style="?textTitle"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:text=""
+                            android:textAppearance="@style/text_Small" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow_vfy_address2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vaddress2"
+                        android:textAppearance="@style/text_Small" />
+
+                    <FrameLayout
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <com.bfsi.egalite.support.MyTextView
+                            android:id="@+id/id_verify_address2_val"
+                            style="?textTitle"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:text=""
+                            android:textAppearance="@style/text_Small" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow_vfy_address3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vaddress3"
+                        android:textAppearance="@style/text_Small" />
+
+                    <FrameLayout
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <com.bfsi.egalite.support.MyTextView
+                            android:id="@+id/id_verify_address3_val"
+                            style="?textTitle"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:text=""
+                            android:textAppearance="@style/text_Small" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tablerow_vfy_address4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vaddress4"
+                        android:textAppearance="@style/text_Small" />
+
+                    <FrameLayout
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <com.bfsi.egalite.support.MyTextView
+                            android:id="@+id/id_verify_address4_val"
+                            style="?textTitle"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:text=""
+                            android:textAppearance="@style/text_Small" />
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vstate"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_state_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vcountry"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_country_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vzipcode"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_zip_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vacctype"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_acctype_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabrow_groupid"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vgroupid"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_groupid_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabrow_poc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vpoc"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_poc_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vcontactno"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_contactno_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vmarital"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_marital_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vprofession"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_profession_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vemailid"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_email_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vremarks"
+                        android:textAppearance="@style/text_Small" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/id_verify_remarks_val"
+                        style="?textTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext"
+                    android:weightSum="1.0" >
+
+                    <CheckBox
+                        android:id="@+id/chek_nationalid"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:clickable="false"
+                        android:text="@string/nationalid"
+                        android:textAppearance="@style/text_Small" />
+
+                    <CheckBox
+                        android:id="@+id/chek_passport"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:clickable="false"
+                        android:text="@string/passport"
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext"
+                    android:weightSum="1.0" >
+
+                    <CheckBox
+                        android:id="@+id/chek_drivinglicens"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:clickable="false"
+                        android:text="@string/drivinglicens"
+                        android:textAppearance="@style/text_Small" />
+
+                    <CheckBox
+                        android:id="@+id/chek_govtIssuedId"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:clickable="false"
+                        android:text="@string/govt.issued.id"
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext"
+                    android:weightSum="1.0" >
+
+                    <CheckBox
+                        android:id="@+id/chek_birthcertificate"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:clickable="false"
+                        android:text="@string/birthcertificate"
+                        android:textAppearance="@style/text_Small" />
+
+                    <CheckBox
+                        android:id="@+id/chek_aadhar"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:clickable="false"
+                        android:text="@string/aadhar"
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_edittext"
+                    android:weightSum="1.0" >
+
+                    <CheckBox
+                        android:id="@+id/chek_resident"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:clickable="false"
+                        android:text="@string/resident"
+                        android:textAppearance="@style/text_Small" />
+
+                    <CheckBox
+                        android:id="@+id/chek_familybook"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:clickable="false"
+                        android:text="@string/familybook"
+                        android:textAppearance="@style/text_Small" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

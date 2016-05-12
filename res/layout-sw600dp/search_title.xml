@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?bordereffect"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="@dimen/lay_between_padding"
+    android:padding="3dp" >
+
+    <EditText
+        android:id="@+id/edt_search_all"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/searchimg"
+        android:ems="10"
+        android:hint="@string/edit_hint"
+        android:paddingLeft="5dp"
+        android:textAppearance="@style/text_Medium"
+        android:padding="@dimen/paddingText" 
+        >
+    </EditText>
+
+</RelativeLayout>

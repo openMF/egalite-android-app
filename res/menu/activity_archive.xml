@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <item
+            android:id="@+id/shedules"
+            android:title="Schedules"/>
+<!--         <item
+            android:id="@+id/viewpay"
+            android:title="Viewpay"/> -->
+		<item
+            android:id="@+id/initiate"
+            android:title="Intitate"/>
+		
+
+</menu>

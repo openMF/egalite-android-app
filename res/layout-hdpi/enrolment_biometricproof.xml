@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linlay_finger6"
+                style="?bordereffect"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/lt_hand_thumb"
+                    android:textAppearance="@style/text_Small" />
+
+                <ImageView
+                    android:id="@+id/img_bioproof_select6"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fpsselector" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linlay_finger1"
+                style="?bordereffect"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_padding"
+                android:layout_toRightOf="@+id/linlay_finger6"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/rt_hand_thumb"
+                    android:textAppearance="@style/text_Small" />
+
+                <ImageView
+                    android:id="@+id/img_bioproof_select1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fpsselector" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linlay_finger7"
+                style="?bordereffect"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linlay_finger6"
+                android:layout_marginTop="@dimen/layout_padding"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/lt_hand_index"
+                    android:textAppearance="@style/text_Small" />
+
+                <ImageView
+                    android:id="@+id/img_bioproof_select7"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fpsselector" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linlay_finger2"
+                style="?bordereffect"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linlay_finger1"
+                android:layout_marginLeft="@dimen/layout_padding"
+                android:layout_marginTop="@dimen/layout_padding"
+                android:layout_toRightOf="@+id/linlay_finger7"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/rt_hand_index"
+                    android:textAppearance="@style/text_Small" />
+
+                <ImageView
+                    android:id="@+id/img_bioproof_select2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fpsselector" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linlay_finger8"
+                style="?bordereffect"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/linlay_finger7"
+                android:layout_marginTop="@dimen/layout_padding"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/lt_hand_middle"
+                    android:textAppearance="@style/text_Small" />
+
+                <ImageView
+                    android:id="@+id/img_bioproof_select8"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fpsselector" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linlay_finger3"
+                style="?bordereffect"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linlay_finger2"
+                android:layout_marginLeft="@dimen/layout_padding"
+                android:layout_marginTop="@dimen/layout_padding"
+                android:layout_toRightOf="@+id/linlay_finger8"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/rt_hand_middle"
+                    android:textAppearance="@style/text_Small" />
+
+                <ImageView
+                    android:id="@+id/img_bioproof_select3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fpsselector" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linlay_finger9"
+                style="?bordereffect"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linlay_finger8"
+                android:layout_marginTop="@dimen/layout_padding"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/lt_hand_ring"
+                    android:textAppearance="@style/text_Small" />
+
+                <ImageView
+                    android:id="@+id/img_bioproof_select9"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fpsselector" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linlay_finger4"
+                style="?bordereffect"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linlay_finger3"
+                android:layout_marginLeft="@dimen/layout_padding"
+                android:layout_marginTop="@dimen/layout_padding"
+                android:layout_toRightOf="@+id/linlay_finger9"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/rt_hand_ring"
+                    android:textAppearance="@style/text_Small" />
+
+                <ImageView
+                    android:id="@+id/img_bioproof_select4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fpsselector" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linlay_finger10"
+                style="?bordereffect"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linlay_finger9"
+                android:layout_marginTop="@dimen/layout_padding"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/lt_hand_little"
+                    android:textAppearance="@style/text_Small" />
+
+                <ImageView
+                    android:id="@+id/img_bioproof_select10"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fpsselector" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linlay_finger5"
+                style="?bordereffect"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/layout_padding"
+                android:layout_marginTop="@dimen/layout_padding"
+                android:layout_toRightOf="@+id/linlay_finger10"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/rt_hand_little"
+                    android:textAppearance="@style/text_Small" />
+
+                <ImageView
+                    android:id="@+id/img_bioproof_select5"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/fpsselector" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

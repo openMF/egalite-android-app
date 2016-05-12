@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:padding="@dimen/layout_padding" >
+
+    <TableLayout
+        android:id="@+id/table_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical|horizontal" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:text="@string/cust_name"
+                android:textAppearance="@style/text_Small" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_loanpopup_name"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text=""
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:text="@string/CustId"
+                android:textAppearance="@style/text_Small" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_loanpopup_custid"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text=""
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:text="@string/loanaccno"
+                android:textAppearance="@style/text_Small" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_loanpopup_loanacc"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text=""
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                style="?textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:text="@string/disburse_prinamt"
+                android:textAppearance="@style/text_Small" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_loanpopup_disbprinc"
+                style="?textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text=""
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                style="?textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:text="@string/outstnd_principal"
+                android:textAppearance="@style/text_Small" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_loanpopup_outprincipal"
+                style="?textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text=""
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
