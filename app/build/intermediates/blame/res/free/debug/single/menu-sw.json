@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/debug/menu-sw/actions.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/menu-sw/actions.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/debug/menu-sw/main.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/menu-sw/main.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/debug/menu-sw/activity_archive_dis.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/menu-sw/activity_archive_dis.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/debug/menu-sw/activity_archive.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/menu-sw/activity_archive.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/debug/menu-sw/repay_cust_account_details.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/menu-sw/repay_cust_account_details.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/debug/menu-sw/repay_amount_details.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/menu-sw/repay_amount_details.xml"
+    }
+]

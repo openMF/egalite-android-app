@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/padding_home" >
+
+    <LinearLayout
+        android:id="@+id/linlay_homelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <com.bfsi.egalite.support.MyTextView
+            android:id="@+id/txv_home_lay_welcome"
+            style="?textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textAppearance="@style/text_Medium" />
+
+        <com.bfsi.egalite.support.MyTextView
+            android:id="@+id/txv_home_lay_welcome_agent"
+            style="?textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textAppearance="@style/text_Medium"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/linlay_homelayout"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:id="@+id/table_lay"
+                style="?bordereffect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linlay_lastlogintime"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/layout_padding"
+                android:padding="@dimen/layout_padding"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbarStyle="outsideOverlay"
+                android:scrollbars="vertical|horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text="@string/currency"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <Spinner
+                        android:id="@+id/spinner_ccy_val"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/spinner_ab_default_example"
+                        android:textAppearance="@style/text_Small"
+                        android:textColor="@color/textlight" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text="@string/openingbal"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_opningbal_val"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text=""
+                        android:textAppearance="@style/text_Medium"
+                        android:textColor="@color/textlight" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text="@string/topup"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_topup_val"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text=""
+                        android:textAppearance="@style/text_Small"
+                        android:textColor="@color/textlight" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text="@string/topdown"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_topdown_val"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text=""
+                        android:textAppearance="@style/text_Medium"
+                        android:textColor="@color/textlight" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text="@string/totaldr"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_totaldr_val"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text=""
+                        android:textAppearance="@style/text_Medium"
+                        android:textColor="@color/textlight" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text="@string/totalcr"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_totalcr_val"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text=""
+                        android:textAppearance="@style/text_Medium"
+                        android:textColor="@color/textlight" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text="@string/closingbal"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_closing_val"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text=""
+                        android:textAppearance="@style/text_Medium"
+                        android:textColor="@color/textlight" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text="@string/cashlimit"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_cashlimit_val"
+                        style="?textTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text=""
+                        android:textAppearance="@style/text_Medium"
+                        android:textColor="@color/textlight" />
+                </LinearLayout>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/agenda"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/table_lay"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@color/transparent"
+                android:gravity="center_horizontal"
+                android:text="Agenda"
+                android:textAppearance="@style/text_Medium" />
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                style="?bordereffect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/agenda"
+                android:layout_marginTop="10dp" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp" >
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Txn Name"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Pending"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Executed"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/txv_customer_name" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Synced"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/txv_customer_name" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Total"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+                </TableRow>
+
+                <View
+                    android:id="@+id/view"
+                    style="?view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp" />
+
+                <ListView
+                    android:id="@+id/list_dashbord_agenda"
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:cacheColorHint="#00000000"
+                    android:padding="1dp"
+                    android:scrollbars="none" >
+                </ListView>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/txn"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tableLayout1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@color/transparent"
+                android:gravity="center_horizontal"
+                android:text="Transactions"
+                android:textAppearance="@style/text_Medium" />
+
+            <TableLayout
+                android:id="@+id/tableLayout2"
+                style="?bordereffect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/agenda"
+                android:layout_marginTop="10dp" >
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp" >
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Txn Name"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Pending"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Executed"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/txv_customer_name" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Synced"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/txv_customer_name" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Reversed"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+                </TableRow>
+
+                <View
+                    android:id="@+id/view"
+                    style="?view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp" />
+
+                <ListView
+                    android:id="@+id/list_dashbord_txn"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:cacheColorHint="#00000000"
+                    android:padding="1dp"
+                    android:scrollbars="none" >
+                </ListView>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/txn"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tableLayout1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@color/transparent"
+                android:gravity="center_horizontal"
+                android:text="Customer Enrollment "
+                android:textAppearance="@style/text_Medium" />
+
+            <TableLayout
+                android:id="@+id/tableLayout2"
+                style="?bordereffect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/agenda"
+                android:layout_marginTop="10dp" >
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp" >
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Txn Name"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Pending"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Executed"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/txv_customer_name" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Synced"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/txv_customer_name" />
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="Reversed"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/light_orange" />
+                        </LinearLayout>
+                    </FrameLayout>
+                </TableRow>
+
+                <View
+                    android:id="@+id/view"
+                    style="?view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp" />
+
+                <ListView
+                    android:id="@+id/list_dashbord_enltxn"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:cacheColorHint="#00000000"
+                    android:padding="1dp"
+                    android:scrollbars="none" >
+                </ListView>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

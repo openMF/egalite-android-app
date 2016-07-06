@@ -1,0 +1,121 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'java'
+apply plugin: 'signing'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.bfsi.egalite.view"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        incremental false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+
+        debug {
+            applicationIdSuffix ".debug"
+        }
+
+        jnidebug {
+            initWith debug
+
+            applicationIdSuffix ".jnidebug"
+            jniDebuggable true
+        }
+
+        sourceSets {
+//intTest
+            main {
+                java {
+                    srcDir 'src/java'
+                }
+                resources {
+                    srcDir 'src/resources'
+                }
+            }
+        }
+    }
+
+    productFlavors {
+        free {
+            applicationId 'com.example.myapp.free'
+        }
+
+        paid {
+            applicationId 'com.example.myapp.paid'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+        noLines false
+
+    }
+}
+
+//test {
+//    filter {
+//        //include specific method in any of the tests
+//        includeTestsMatching "*UiCheck"
+//
+//        //include all tests from package
+//        includeTestsMatching "org.gradle.internal.*"
+//
+//        //include all integration tests
+//        includeTestsMatching "*IntegTest"
+//    }
+//}
+
+//task intTest(type: Jar) {
+//    from sourceSets.intTest.output
+//}
+//
+//task intTestJavadoc(type: Javadoc) {
+//    source sourceSets.intTest.allJava
+//}
+//
+//task intTest(type: Test) {
+//    testClassesDir = sourceSets.intTest.output.classesDir
+//    classpath = sourceSets.intTest.runtimeClasspath
+//}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
+dependencies {
+
+//    intTestCompile 'junit:junit:4.12'
+//    intTestRuntime 'org.ow2.asm:asm-all:4.0'
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    compile 'com.android.support:support-v4:23.3.0'
+    compile 'com.google.code.gson:gson:2.1'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:preference-v7:23.3.0'
+    compile files('libs/ProwessSdkV2.3.6.jar')
+    compile files('libs/RawToBmp_V0.01.jar')
+    compile files('libs/httpclient-4.2.3.jar')
+    compile files('libs/httpclient-cache-4.2.3.jar')
+    compile files('libs/httpcore-4.2.2.jar')
+    compile files('libs/httpmime-4.2.3.jar')
+    compile files('libs/logback-android-1.0.10-2.jar')
+    compile files('libs/mfiRestApi-0.0.1-SNAPSHOT.jar')
+    compile files('libs/sc-light-jdk15on-1.47.0.2.jar')
+    compile files('libs/scpkix-jdk15on-1.47.0.2.jar')
+    compile files('libs/scprov-jdk15on-1.47.0.2.jar')
+    compile files('libs/slf4j-api-1.7.5.jar')
+}

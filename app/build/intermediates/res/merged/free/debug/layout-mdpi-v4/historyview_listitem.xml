@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rellay_histview_listitem"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal" >
+
+    <View
+        android:id="@+id/view_color_history"
+        android:layout_width="4dp"
+        android:layout_alignParentLeft="true"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true" />
+    
+    <com.bfsi.egalite.support.MyTextView
+        android:id="@+id/txv_hist_custid"
+        style="?textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/layout_padding"
+        android:text=""
+        android:ems="8"
+        android:textAppearance="@style/text_Extra_Small" />
+
+    <com.bfsi.egalite.support.MyTextView
+        android:id="@+id/txv_hist_txnid"
+        style="?textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/layout_padding"
+        android:text=""
+        android:ems="8"
+        android:textAppearance="@style/text_Extra_Small" />
+
+    <com.bfsi.egalite.support.MyTextView
+        android:id="@+id/txv_hist_amount"
+        style="?textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/layout_padding"
+        android:text=""
+        android:textAppearance="@style/text_Extra_Small" />
+
+</RelativeLayout>

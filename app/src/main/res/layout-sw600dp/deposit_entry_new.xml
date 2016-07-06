@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linlay_deponew"
+                style="?bordereffect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding" >
+
+                <ImageView
+                    android:id="@+id/img_depo_ent_customer"
+                    style="?profileimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_depo_ent_new_custname"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="  "
+                        android:textAppearance="@style/text_Medium" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_depo_ent_new_custid"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:paddingLeft="10dp"
+                        android:text=""
+                        android:textAppearance="@style/text_Medium" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TableLayout
+                style="?bordereffect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/lay_between_padding"
+                android:padding="@dimen/layout_padding" >
+
+                <TableRow
+                    android:id="@+id/tableRow_tenure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_weight="0.5"
+                        android:text="@string/tenure"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioGroup
+                            android:id="@+id/radio_grp_new_tenure"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="horizontal" >
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" >
+
+                                <RadioButton
+                                    android:id="@+id/radio_grp_tenure_days"
+                                    style="?textTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/days"
+                                    android:textAppearance="@style/text_Medium" />
+
+                                <RadioButton
+                                    android:id="@+id/radio_grp_tenure_weeks"
+                                    style="?textTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@+id/radio_grp_tenure_days"
+                                    android:text="@string/weeks"
+                                    android:textAppearance="@style/text_Medium" />
+
+                                <RadioButton
+                                    android:id="@+id/radio_grp_tenure_month"
+                                    style="?textTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@+id/radio_grp_tenure_weeks"
+                                    android:text="@string/month"
+                                    android:textAppearance="@style/text_Medium" />
+
+                                <RadioButton
+                                    android:id="@+id/radio_grp_tenure_year"
+                                    style="?textTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/radio_grp_tenure_weeks"
+                                    android:text="@string/year"
+                                    android:textAppearance="@style/text_Medium" />
+                            </RelativeLayout>
+                        </RadioGroup>
+
+                        <EditText
+                            android:id="@+id/edt_depo_ent_new_enter_tenure"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/radio_grp_new_tenure"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/searchimg"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:inputType="number"
+                            android:maxLength="3"
+                            android:textAppearance="@style/text_Medium" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow_freq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_weight="0.5"
+                        android:text="@string/frequency"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioGroup
+                            android:id="@+id/radio_grp_new_frequency"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="horizontal" >
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" >
+
+                                <RadioButton
+                                    android:id="@+id/radio_grp_freq_days"
+                                    style="?textTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/daily"
+                                    android:textAppearance="@style/text_Medium" />
+
+                                <RadioButton
+                                    android:id="@+id/radio_grp_freq_weeks"
+                                    style="?textTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@+id/radio_grp_freq_days"
+                                    android:text="@string/weeks"
+                                    android:textAppearance="@style/text_Medium" />
+
+                                <RadioButton
+                                    android:id="@+id/radio_grp_freq_month"
+                                    style="?textTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@+id/radio_grp_freq_weeks"
+                                    android:text="@string/monthly"
+                                    android:textAppearance="@style/text_Medium" />
+
+                                <RadioButton
+                                    android:id="@+id/radio_grp_freq_year"
+                                    style="?textTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/radio_grp_freq_days"
+                                    android:text="@string/yearly"
+                                    android:textAppearance="@style/text_Medium" />
+
+                                <RadioButton
+                                    android:id="@+id/radio_grp_freq_randomly"
+                                    style="?textTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/radio_grp_freq_days"
+                                    android:layout_toRightOf="@+id/radio_grp_freq_year"
+                                    android:text="@string/randomly"
+                                    android:textAppearance="@style/text_Medium" />
+                            </RelativeLayout>
+                        </RadioGroup>
+
+                        <EditText
+                            android:id="@+id/edt_depo_ent_new_enter_frequency"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/radio_grp_new_frequency"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/searchimg"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:inputType="number"
+                            android:textAppearance="@style/text_Medium" />
+                    </LinearLayout>
+                </TableRow>
+
+                <!--
+                <TableRow
+                    android:id="@+id/tablerow_maturity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="@string/tenuretype"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_depo_ent_new_tenure_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0.5"
+                        android:text=""
+                        android:textAppearance="@style/text_Medium"
+                        android:textColor="@color/textlight" />
+                </TableRow>
+                -->
+
+
+                <!--
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="@string/expectedMaturityDate"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_depo_new_mt_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="0.5"
+                        android:text=""
+                        android:textAppearance="@style/text_Medium"
+                        android:textColor="@color/textlight" />
+                </TableRow>
+                -->
+
+
+                <!--
+                <TableRow
+                    android:id="@+id/tableRow_frequency_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text="@string/frequencytype"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <Spinner
+                        android:id="@+id/spinner_depo_no_installment"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/spinner_ab_default_example"
+                        android:spinnerMode="dropdown" />
+                </TableRow>
+                -->
+
+                <TableRow
+                    android:id="@+id/tableRow_ccy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text="@string/deposit_currency"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <Spinner
+                        android:id="@+id/spinner_depo_currency"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/spinner_ab_default_example"
+                        android:spinnerMode="dropdown" />
+                </TableRow>
+
+                <!--
+                <TableRow
+                    android:id="@+id/tablerow_frequency_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="@string/frequencytype"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_depo_ent_new_frequencytype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0.5"
+                        android:text=""
+                        android:textAppearance="@style/text_Medium"
+                        android:textColor="@color/textlight" />
+                </TableRow>
+                -->
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text="@string/interestrate"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <EditText
+                        android:id="@+id/edt_depo_ent_new_interestrate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/searchimg"
+                        android:digits="0123456789."
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/hint_enter_rate"
+                        android:inputType="numberDecimal"
+                        android:paddingLeft="8dp"
+                        android:textAppearance="@style/text_Medium" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text="@string/installment_amt"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <EditText
+                        android:id="@+id/edt_depo_ent_new_install_amt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/searchimg"
+                        android:digits="0123456789."
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/hint_enter_amount"
+                        android:inputType="numberDecimal"
+                        android:paddingLeft="8dp"
+                        android:textAppearance="@style/text_Medium" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tabrow_narrative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:weightSum="1.0" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="0.5"
+                        android:text="@string/rpy_narrative"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <EditText
+                        android:id="@+id/edt_depo_ent_new_narrative"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/searchimg"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/hint_enter_narrative"
+                        android:paddingLeft="8dp"
+                        android:textAppearance="@style/text_Medium" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

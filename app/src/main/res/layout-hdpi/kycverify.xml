@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/linlay_photo"
+                    style="?bordereffect"
+                    android:layout_width="145dp"
+                    android:layout_height="260dp"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/textView1"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/lay_between_padding"
+                        android:text="@string/photo"
+                        android:textAppearance="@style/text_Small" />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/lay_between_padding"
+                        android:src="@color/light_gray" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="?bordereffect"
+                    android:layout_width="145dp"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="@dimen/layout_padding"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_docname1"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/lay_between_padding"
+                        android:text="@string/photo"
+                        android:textAppearance="@style/text_Small" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/lay_between_padding"
+                        android:src="@color/light_gray" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/docproof1"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/lay_between_padding"
+                        android:textAppearance="@style/text_Small" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    style="?bordereffect"
+                    android:layout_width="145dp"
+                    android:layout_height="260dp"
+                    android:layout_marginTop="@dimen/layout_padding"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_docname2"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/lay_between_padding"
+                        android:text="@string/photo"
+                        android:textAppearance="@style/text_Small" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/lay_between_padding"
+                        android:src="@color/light_gray" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/docproof2"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/lay_between_padding"
+                        android:textAppearance="@style/text_Small" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="?bordereffect"
+                    android:layout_width="145dp"
+                    android:layout_height="260dp"
+                    android:layout_marginLeft="@dimen/layout_padding"
+                    android:layout_marginTop="@dimen/layout_padding"
+                    android:orientation="vertical"
+                    android:padding="5dp" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_docname3"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/lay_between_padding"
+                        android:text="@string/photo"
+                        android:textAppearance="@style/text_Small" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/lay_between_padding"
+                        android:src="@color/light_gray" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/docproof3"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/lay_between_padding"
+                        android:textAppearance="@style/text_Small" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

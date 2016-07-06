@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/shaders"/></dataSet><dataSet config="free"><source path="/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/free/shaders"/></dataSet><dataSet config="jnidebug"><source path="/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/jnidebug/shaders"/></dataSet><dataSet config="freeJnidebug"><source path="/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/freeJnidebug/shaders"/></dataSet></merger>

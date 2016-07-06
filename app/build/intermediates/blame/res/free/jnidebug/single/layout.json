@@ -1,0 +1,1290 @@
+[
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/historydetails.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/historydetails.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_str_history_view.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/middle_table_str_history_view.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_schedules_list.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_customer_schedules_list.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/preference_recyclerview.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.3.0/res/layout/preference_recyclerview.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/cash_confirm.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/cash_confirm.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_verify.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_verify.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_schedule_date_list.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_customer_schedule_date_list.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_agenda_premature_redemp.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_agenda_premature_redemp.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_structure_cash_depo_history.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/middle_table_structure_cash_depo_history.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_entry_prepay.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_entry_prepay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_entry.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customer_entry.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_verify.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customer_verify.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/home_layout_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/home_layout_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/prepay_entry.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/prepay_entry.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_verify.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customer_verify.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_confirm.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_confirm.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/cash_verify.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/cash_verify.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_all.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customer_all.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/prepay_confirm.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/prepay_confirm.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/groups_listitems.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/groups_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_amount_details_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_amount_details_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_screen_simple.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_structure_redemtion.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/middle_table_structure_redemtion.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_info.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customer_info.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_confirm_redem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_confirm_redem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_screen_content_include.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/popup.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/popup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/search_enroll_title.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/search_enroll_title.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_confirm.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customer_confirm.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/home_layout_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/home_layout_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/activity_alarm_manager.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/activity_alarm_manager.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/cash_details.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/cash_details.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_entry.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_entry.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_paid_list.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_customer_paid_list.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/about.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/about.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/child_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/child_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_structure_customer.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/middle_table_structure_customer.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/custom_title.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/custom_title.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/base_layout.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/base_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_confirm_collection.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_confirm_collection.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_account_details.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_customer_account_details.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_structure_maturity.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/middle_table_structure_maturity.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/spinner_text.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/spinner_text.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/forgetpassword.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/forgetpassword.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_verify_collection.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_verify_collection.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_info.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customer_info.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customersall_details.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customersall_details.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_query.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customer_query.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/setting.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/setting.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_agenda_collection_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_agenda_collection_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_confirm_prepay.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_confirm_prepay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/base_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/base_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_information.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customer_information.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_verify_redem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_verify_redem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/setcashpostion.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/setcashpostion.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/spinner_base_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/spinner_base_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/splash.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/search_title.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/search_title.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/sync_layout.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/sync_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_tablel_structure.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/middle_tablel_structure.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/search_title.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/search_title.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/autotext_dropdown.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/autotext_dropdown.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_entry_maturity_pay.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_entry_maturity_pay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/alert_diologue_box.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/alert_diologue_box.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_agenda_premature_redemp_listitems.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_agenda_premature_redemp_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_agenda_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/dsb_agenda_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_entry.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/dsb_entry.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/notification_template_media.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/depositpopup.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/depositpopup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_customer_information.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/dsb_customer_information.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_agenda_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_agenda_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_entry_prepay.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_entry_prepay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/agenda_records_listitems.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/agenda_records_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_paid_list.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_customer_paid_list.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/tabs_layout_customer.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/tabs_layout_customer.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_confirm_new.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_confirm_new.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_entry.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_entry.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/setting_chngpass_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/setting_chngpass_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_account_details_listitems.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customer_account_details_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/custdetailsactivitypopup.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/custdetailsactivitypopup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/loans_popup.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/loans_popup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/alertdialog.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/alertdialog.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/login_layout.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/login_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_confirm_redem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_confirm_redem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/notification_template_big_media.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/alertdialog.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/alertdialog.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/historyenroll_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/historyenroll_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_verify.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_verify.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/child_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/child_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_view.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customer_view.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_structure_collection.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/middle_table_structure_collection.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/prepay_entry.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/prepay_entry.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/historyview_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/historyview_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_agenda_maturity_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_agenda_maturity_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_agenda_maturity_pay.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_agenda_maturity_pay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_account_details_listitems.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_account_details_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_agenda.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customer_agenda.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/preference_widget_switch_compat.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.3.0/res/layout/preference_widget_switch_compat.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_entry_collection.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_entry_collection.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_search_view.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/loanpaidsheduls.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/loanpaidsheduls.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/drawrectangle.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/drawrectangle.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_agenda.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/dsb_agenda.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/activity_main.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_agenda.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/dsb_agenda.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/historyenroll_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/historyenroll_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_agenda_collection_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_agenda_collection_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_confirm.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customer_confirm.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_information.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customer_information.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_customerview.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/middle_table_customerview.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/radiosample.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/radiosample.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customerview_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customerview_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/tabs_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/tabs_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_verify_prepay.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_verify_prepay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/historyview_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/historyview_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_customer_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/dsb_customer_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_confirm.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_confirm.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_str_enroll_view.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/middle_table_str_enroll_view.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/setpassword.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/setpassword.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/prepay_confirm.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/prepay_confirm.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_customer.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/dsb_customer.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/custom_title.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/custom_title.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_account_details_listitems.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_account_details_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_customerview.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/middle_table_customerview.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_structure_deposit.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/middle_table_structure_deposit.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/forgetpassword.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/forgetpassword.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customerlist.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customerlist.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/cashpopup.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/cashpopup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/preference_information.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.3.0/res/layout/preference_information.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/tabs_layout_customer.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/tabs_layout_customer.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_query.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customer_query.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/spinner_text_black.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/spinner_text_black.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/setting.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/setting.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_structure_customer.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/middle_table_structure_customer.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_agenda_maturity_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_agenda_maturity_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/alert_diologue_box.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/alert_diologue_box.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_verify_premature_redemp.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_verify_premature_redemp.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/radiosample.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/radiosample.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/setpassword.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/setpassword.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_tablel_structure.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/middle_tablel_structure.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/secondfrag.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/secondfrag.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/cash_verify.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/cash_verify.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_paid_details.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_customer_paid_details.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/homelist_item.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/homelist_item.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/paidshedul_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/paidshedul_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/autotext_dropdown.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/autotext_dropdown.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_verify_prepay.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_verify_prepay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/setting_chngpass_layout.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/setting_chngpass_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/notification_template_part_time.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_entry_redem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_entry_redem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/grouploan.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/grouploan.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_verify_collection.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_verify_collection.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_structure_redemtion.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/middle_table_structure_redemtion.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/secondfrag.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/secondfrag.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/prepay_verify.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/prepay_verify.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_verify_premature_redemp.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_verify_premature_redemp.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/cash_entry.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/cash_entry.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/custdetailspopup.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/custdetailspopup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/cash_entry.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/cash_entry.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dashboard.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/dashboard.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_verify_redem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_verify_redem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/splash.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/spinner_base_layout.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/spinner_base_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/login_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/login_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_agenda_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/dsb_agenda_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/loanpopup.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/loanpopup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_amount_details.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_amount_details.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_confirm_new.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_confirm_new.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customerview_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customerview_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/progress_dialog.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/progress_dialog.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/activity_alarm_manager.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/activity_alarm_manager.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_agenda_list.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customer_agenda_list.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/prepay_verify.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/prepay_verify.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/progress_dialog.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/progress_dialog.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/firstfrag.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/firstfrag.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_verify_maturity_pay.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_verify_maturity_pay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_entry_new.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_entry_new.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_schedules.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_customer_schedules.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_agenda_collection.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_agenda_collection.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/preference_widget_checkbox.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.3.0/res/layout/preference_widget_checkbox.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_str_history_view.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/middle_table_str_history_view.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_str_enroll_view.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/middle_table_str_enroll_view.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customermain.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customermain.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_account_details_listitems.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customer_account_details_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/parent_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/parent_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_confirm_collection.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_confirm_collection.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/bluetoothconnect.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/bluetoothconnect.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_agenda.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_agenda.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/notification_media_action.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/home_screen.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/home_screen.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_agenda_collection.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_agenda_collection.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_schedules.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_customer_schedules.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/registration_layout.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/registration_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_customer.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/dsb_customer.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/search_enroll_title.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/search_enroll_title.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_customer_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/dsb_customer_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_verify_new.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_verify_new.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/spinner_text.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/spinner_text.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dropdown_spinner.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/dropdown_spinner.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dropdown_spinner.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/dropdown_spinner.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/historyenroll_details.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/historyenroll_details.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_entry_maturity_pay.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_entry_maturity_pay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/tabs_layout.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/tabs_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/preference_category.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.3.0/res/layout/preference_category.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_entry.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/dsb_entry.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_entry_redem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_entry_redem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/spinner_text_black.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/spinner_text_black.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_entry_new.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_entry_new.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_structure_deposit.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/middle_table_structure_deposit.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_schedule_date_list.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_customer_schedule_date_list.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_amount_details.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_amount_details.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/parent_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/parent_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_structure_cash_depo_history.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/middle_table_structure_cash_depo_history.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/home_layout_currency_listitems.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/home_layout_currency_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_structure_maturity.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/middle_table_structure_maturity.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_amount_details_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_amount_details_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/historydetails.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/historydetails.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/depositpopup.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/depositpopup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_agenda_list.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customer_agenda_list.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/home_screen.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/home_screen.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/loans_popup.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/loans_popup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/paidshedul_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/paidshedul_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_entry_premature_redemp.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_entry_premature_redemp.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customer_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_schedules_list.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_customer_schedules_list.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/select_dialog_item_material.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_entry_premature_redemp.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_entry_premature_redemp.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_agenda_listitem.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_agenda_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/row_grid.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/row_grid.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/preference_list_fragment.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.3.0/res/layout/preference_list_fragment.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/popup.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/popup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/cash_confirm.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/cash_confirm.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/middle_table_structure_collection.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/middle_table_structure_collection.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/homelist_item.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/homelist_item.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_confirm_maturity_pay.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_confirm_maturity_pay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_entry.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customer_entry.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/about.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/about.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customermain.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customermain.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/historyview.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/historyview.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_all.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customer_all.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/home_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/home_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/agenda_records_listitems.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/agenda_records_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_agenda.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_agenda.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/groups_listitems.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/groups_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/bluetoothconnect.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/bluetoothconnect.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_confirm_prepay.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_confirm_prepay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_schedules_sublist.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_customer_schedules_sublist.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_confirm_premature_redemp.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_confirm_premature_redemp.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/cashpopup.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/cashpopup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/firstfrag.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/firstfrag.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customersall_details.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customersall_details.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_confirm.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/dsb_confirm.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_verify_maturity_pay.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_verify_maturity_pay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/registration_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/registration_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/cash_details.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/cash_details.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/historyenroll_details.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/historyenroll_details.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_agenda_maturity_pay.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_agenda_maturity_pay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/notification_template_lines.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_verify_new.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_verify_new.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/loanpopup.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/loanpopup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_view.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/customer_view.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/drawrectangle.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/drawrectangle.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/setcashpostion.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/setcashpostion.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dashboard.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/dashboard.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/row_grid.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/row_grid.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/custdetailsactivitypopup.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/custdetailsactivitypopup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/activity_main.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_customer_information.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/dsb_customer_information.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/sync_layout.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/sync_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_agenda_premature_redemp_listitems.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_agenda_premature_redemp_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/preference_dialog_edittext.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.3.0/res/layout/preference_dialog_edittext.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customerlist.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customerlist.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_verify.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/dsb_verify.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_verify.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/dsb_verify.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/cash_details_listitems.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/cash_details_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/historyview.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/historyview.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/grouploan.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/grouploan.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/home_layout.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/home_layout.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_agenda.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customer_agenda.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/loanpaidsheduls.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/loanpaidsheduls.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_confirm_premature_redemp.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_confirm_premature_redemp.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_entry_collection.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_entry_collection.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/home_layout_currency_listitems.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/home_layout_currency_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_schedules_sublist.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_customer_schedules_sublist.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_agenda_premature_redemp.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/deposit_agenda_premature_redemp.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/deposit_confirm_maturity_pay.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/deposit_confirm_maturity_pay.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_paid_details.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/repay_customer_paid_details.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/repay_customer_account_details.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/repay_customer_account_details.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/custdetailspopup.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/custdetailspopup.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/dsb_confirm.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout/dsb_confirm.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/customer_listitem.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/customer_listitem.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/cash_details_listitems.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout/cash_details_listitems.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_alert_dialog_material.xml"
+    }
+]

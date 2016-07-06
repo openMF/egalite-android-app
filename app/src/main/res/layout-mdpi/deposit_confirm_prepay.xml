@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txnscreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/appbackgroundimg"
+    android:padding="@dimen/layout_padding" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <!--
+            <LinearLayout
+                android:id="@+id/linlay_customer"
+                style="?bordereffect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/lay_between_padding"
+                android:padding="@dimen/layout_padding"
+                tools:ignore="UselessParent" >
+
+                <ImageView
+                    android:id="@+id/img_depo_cnf_pre_customer"
+                    style="?profileimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="ObsoleteLayoutParam,ContentDescription" />
+
+                <com.bfsi.egalite.support.MyTextView
+                    android:id="@+id/txv_depo_cnf_pre_customername"
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text=""
+                    android:textAppearance="@style/text_Nameheading"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+
+            -->
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linlay_customer"
+                android:layout_centerHorizontal="true"
+                 >
+
+                <LinearLayout
+                    style="?bordereffect"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    tools:ignore="UselessLeaf" >
+
+                    <TableLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="@dimen/layout_padding" >
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_txn_refno"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/txnNo"
+                                android:textAppearance="@style/text_Small"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_txn_no_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Small"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_cbs_refno"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/cbsRefNo"
+                                android:textAppearance="@style/text_Small"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_refno_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Small"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_agent_id"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/agentid_register"
+                                android:textAppearance="@style/text_Small"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_agent_id_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Small"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_cust_id"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/CustId"
+                                android:textAppearance="@style/text_Small"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_cust_id_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Small"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_ccy_code"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/currency"
+                                android:textAppearance="@style/text_Small"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_ccy_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Small"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+                         <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_depo_date"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/depOpnDate"
+                                android:textAppearance="@style/text_Small"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_depo_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Small"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+                         <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_matur_date"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/mturitydate"
+                                android:textAppearance="@style/text_Small"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_matur_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Small"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+                         <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_instll_amt"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/instllamt"
+                                android:textAppearance="@style/text_Small"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_instll_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Small"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_settle_amt"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/settle_amt"
+                                android:textAppearance="@style/text_Small"
+                                tools:ignore="DuplicateIds,HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_settle_amt_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Small"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_txndateandtime"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/TxnDateandTime"
+                                android:textAppearance="@style/text_Small"
+                                tools:ignore="DuplicateIds,HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_txndateandtime_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Small"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <!--
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_narrative"
+                                style="?textTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/rpy_narrative"
+                                android:textAppearance="@style/text_Small"
+                                tools:ignore="DuplicateIds,HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_depo_cnf_pre_narrative_val"
+                                style="?textTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Small"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        -->
+                    </TableLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

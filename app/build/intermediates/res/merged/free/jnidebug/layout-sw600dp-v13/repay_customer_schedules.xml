@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding" >
+
+    <Spinner
+        android:id="@+id/rpy_customer_schedules_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/spinner_ab_default_example"
+        android:paddingLeft="4dp"
+        android:spinnerMode="dropdown"
+        android:textAppearance="@style/text_Medium" />
+
+    <LinearLayout
+        android:id="@+id/linlay_currency"
+        style="?bordereffect"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/lay_between_padding"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:id="@+id/tablay_home_amt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <FrameLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                style="?textTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="@string/Date" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp" />
+
+                    <FrameLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                style="?textTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="@string/amt_due" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="1dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/txv_customer_name" />
+
+                    <FrameLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|center"
+                            android:orientation="horizontal" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                style="?textTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:background="@color/transparent"
+                                android:gravity="center_horizontal"
+                                android:text="@string/paid_amt" />
+                        </LinearLayout>
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+            <View
+                android:id="@+id/view"
+                style="?view"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ExpandableListView
+                    android:id="@+id/lvExp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:groupIndicator="@drawable/expandable_list_selector" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

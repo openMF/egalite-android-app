@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        
+		<item
+            android:id="@+id/req_prepay"
+            android:title="Req Prepay"/>
+		<item
+            android:id="@+id/req_redem"
+            android:title="Req Redem"/>
+
+</menu>

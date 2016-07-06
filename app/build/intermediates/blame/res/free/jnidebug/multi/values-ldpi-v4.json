@@ -1,0 +1,202 @@
+[
+    {
+        "outputFile": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/values-ldpi-v4/values-ldpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 39,
+                    "endOffset": 90
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-ldpi/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 234,
+                        "endColumn": 39,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 95,
+                    "endColumn": 57,
+                    "endOffset": 148
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-ldpi/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 153,
+                    "endColumn": 55,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-ldpi/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 209,
+                    "endColumn": 50,
+                    "endOffset": 255
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-ldpi/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 319,
+                        "endColumn": 50,
+                        "endOffset": 365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 260,
+                    "endColumn": 44,
+                    "endOffset": 300
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-ldpi/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 44,
+                        "endOffset": 314
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/values-ldpi-v4/values-ldpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 39,
+                    "endOffset": 90
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-ldpi/dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 234,
+                        "endColumn": 39,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 95,
+                    "endColumn": 57,
+                    "endOffset": 148
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-ldpi/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 153,
+                    "endColumn": 55,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-ldpi/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 209,
+                    "endColumn": 50,
+                    "endOffset": 255
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-ldpi/dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 319,
+                        "endColumn": 50,
+                        "endOffset": 365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 260,
+                    "endColumn": 44,
+                    "endOffset": 300
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-ldpi/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 44,
+                        "endOffset": 314
+                    }
+                }
+            }
+        ]
+    }
+]

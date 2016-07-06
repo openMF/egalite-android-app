@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme" parent="android:Theme">
+        <item name="android:windowTitleSize">20dip</item>
+    </style>
+
+    <style name="Theme.Light">
+        <item name="pageBackground">@style/background_light</item>
+        <item name="textTitle">@style/text_light</item>
+        <item name="view">@style/view_light</item>
+        <item name="textBase">@style/text_base_light</item>
+        <item name="base_headind_back">@style/base_heading_light</item>
+        <!-- <item name="setting">@style/base_setting_light</item> -->
+        <item name="settingdrawer">@style/setting_drawer_light</item>
+        <item name="settingtextcolor">@style/setting_text_light</item>
+        <item name="bordereffect">@style/border_light</item>
+        <item name="tabhost_background">@style/tabhostbackground_light</item>
+        <item name="profileimage">@style/profileimage_light</item>
+        <item name="calenderimage">@style/calenderimage_light</item>
+    </style>
+
+    <style name="Theme.Dark">
+        <item name="pageBackground">@style/background_dark</item>
+        <item name="textTitle">@style/text_dark</item>
+        <item name="view">@style/view_dark</item>
+        <item name="textBase">@style/text_base_dark</item>
+        <item name="base_headind_back">@style/base_heading_dark</item>
+        <!-- <item name="setting">@style/base_setting_dark</item> -->
+        <item name="settingdrawer">@style/setting_drawer_dark</item>
+        <item name="settingtextcolor">@style/setting_text_dark</item>
+        <item name="bordereffect">@style/border_dark</item>
+        <item name="tabhost_background">@style/tabhostbackground_dark</item>
+        <item name="profileimage">@style/profileimage_dark</item>
+        <item name="calenderimage">@style/calenderimage_dark</item>
+    </style>
+
+</resources>

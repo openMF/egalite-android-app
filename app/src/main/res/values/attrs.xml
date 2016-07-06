@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- View styles -->
+    <attr name="pageBackground" format="reference" />
+    <attr name="textTitle" format="reference" />
+    <attr name="textBase" format="reference" />
+    <attr name="view" format="reference" />
+    <attr name="base_headind_back" format="reference" />
+    <attr name="setting" format="reference" />
+    <attr name="settingdrawer" format="reference" />
+    <attr name="settingtextcolor" format="reference" />
+    <attr name="bordereffect" format="reference" />
+    <attr name="customer_idimg" format="reference" />
+    <attr name="customer_phoneimg" format="reference" />
+    <attr name="tabhost_background" format="reference" />
+    <attr name="profileimage" format="reference" />
+    <attr name="calenderimage" format="reference" />
+    
+    <declare-styleable name="TextProgressBar">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension"></attr>
+    </declare-styleable>
+
+
+</resources>
+
+

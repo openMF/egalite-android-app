@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="LANGUAGE" >
+        <ListPreference
+            android:defaultValue="digiGreen"
+            android:entries="@array/languageArray"
+            android:entryValues="@array/languageValues"
+            android:key="listPref"
+            android:title="Select Application Language" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="THEME" >
+        <ListPreference
+            android:defaultValue="digiGreen"
+            android:entries="@array/themeArray"
+            android:entryValues="@array/themeValues"
+            android:key="listPref"
+            android:title="Select Application Theme" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="DEBUG SETTING" >
+        <SwitchPreference
+            android:key="pref_autorun"
+            android:summary="ON/OFF"
+            android:title="Debug Mode" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="CHANGE PASSWORD" >
+        <Preference
+            android:summary="Change Password"
+            android:title="SET PASSWORD" >
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="SYNC" >
+        <Preference
+            android:summary="Sync here"
+            android:title="SYNC" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languageArray">
+        <item>K_English</item>
+        <item>K_Khmer</item>
+    </string-array>
+    <string-array name="languageValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="themeArray">
+        <item>K_Light</item>
+        <item>K_Dark</item>
+    </string-array>
+    <string-array name="themeValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="Ad.disburse">K_Disburse</string>
+    <string name="Ad.repay">K_Repayment</string>
+    <string name="Advance">K_Advance</string>
+    <string name="Agenda">K_Agenda</string>
+    <string name="Agendaamt">Agenda Amt</string>
+    <string name="AgentId">Agent ID</string>
+    <string name="All">K_All</string>
+    <string name="ArrayIndexOutOfBoundsException">K_ArrayIndexOutOfBoundsException</string>
+    <string name="BuyCurrency">K_Buy Currency</string>
+    <string name="Buyamount">K_Buy Amount </string>
+    <string name="Buysell">K_Buy/Sell Currency </string>
+    <string name="CashPosition">K_Cash Position</string>
+    <string name="ClassNotFoundException">K_ClassNotFoundException</string>
+    <string name="CustId">K_Customer Id</string>
+    <string name="Customer">K_Customer</string>
+    <string name="Date">K_Date</string>
+    <string name="DisbType">Disb Type</string>
+    <string name="Entry">K_Entry</string>
+    <string name="Exception">K_Exception</string>
+    <string name="Forex">K_Foreign Exchange</string>
+    <string name="FullPartialIndicator">Full Partial Indicator</string>
+    <string name="FxtTxeTvwBuy">K_Buy Currency</string>
+    <string name="FxtTxeTvwSell">K_Sell Currency</string>
+    <string name="History">K_History</string>
+    <string name="Home">K_Home</string>
+    <string name="IndexOutOfBoundsException">K_IndexOutOfBoundsException</string>
+    <string name="InputAmount">Input Amount</string>
+    <string name="LoanAcNo">K_Account No</string>
+    <string name="Location">K_Location</string>
+    <string name="MFB00013">K_Entry form error</string>
+    <string name="MFB00014">K_Fields should not be empty</string>
+    <string name="MFB00015">K_Amount to be disburse and entry amount should be equal</string>
+    <string name="Name">K_Name</string>
+    <string name="NullPointerException">K_NullPointerException</string>
+    <string name="NumberFormatException">K_NumberFormatException</string>
+    <string name="PhNo">K_Telephone</string>
+    <string name="Repayment">K_Repayments</string>
+    <string name="RuntimeException">K_RuntimeException</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s: %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s: %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alle ansehen"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"Aus"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"An"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Suchen"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Suchanfrage senden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="about">K_About</string>
+    <string name="accountNumber">K_Account Number</string>
+    <string name="action_location_found">K_Location</string>
+    <string name="action_refresh">K_Refresh</string>
+    <string name="action_search">K_Search</string>
+    <string name="action_settings">K_Settings</string>
+    <string name="add">K_Payment</string>
+    <string name="adrepay">K_Advance Disbursements</string>
+    <string name="agentid_register">K_Agent Id</string>
+    <string name="all_fields_null">K_Please fill the mandatory fileds</string>
+    <string name="amount">K_Amount</string>
+    <string name="amountpaid">K_Paid</string>
+    <string name="amt_dsb_till_dt">K_Disbursed till date</string>
+    <string name="amt_due">K_Amount Due</string>
+    <string name="amt_paid_till_dt">K_Amount Paid Till Date</string>
+    <string name="amt_to_b_dsb">K_Current Disbursal</string>
+    <string name="app_name">K_EGALITE</string>
+    <string name="bottom_title">K_Developed by Bfsi Software Consulting Pvt Ltd</string>
+    <string name="btnTxt_agenda">K_Agenda</string>
+    <string name="btnTxt_customer">K_Customer</string>
+    <string name="btnTxt_entry">K_Txn.Entry</string>
+    <string name="btnTxt_history">K_Txn.History</string>
+    <string name="btn_login">K_Log In</string>
+    <string name="btn_register">K_Sign up</string>
+    <string name="cancel">K_Cancel</string>
+    <string name="cancel_changepass">K_Cancel</string>
+    <string name="cancel_forgetpass">K_Cancel</string>
+    <string name="cashin">K_Amount\nIN</string>
+    <string name="cashout">K_Amount\nOUT</string>
+    <string name="cashpostion">K_Current\nBalance</string>
+    <string name="cbsRefNo">A/C Ref No</string>
+    <string name="ccy">K_Currency</string>
+    <string name="changepass">K_Change Password</string>
+    <string name="changepassword">K_Change Password</string>
+    <string name="close">K_Close</string>
+    <string name="cnfermpassword">K_Please Enter ConfirmPassword</string>
+    <string name="column_acno">K_Account No</string>
+    <string name="column_amount">K_Amount</string>
+    <string name="column_area">K_Area</string>
+    <string name="column_cname">K_CustomerName</string>
+    <string name="column_cname_ldpi">K_Name</string>
+    <string name="component">K_Type</string>
+    <string name="currency">K_Currency</string>
+    <string name="cust_address">K_Address</string>
+    <string name="cust_city">K_City</string>
+    <string name="cust_country">K_Country</string>
+    <string name="cust_state">K_State</string>
+    <string name="customer">K_Customer</string>
+    <string name="customer_column_city">K_City</string>
+    <string name="customer_column_cname">K_CustomerName</string>
+    <string name="customer_column_phonenumber">K_Phone number</string>
+    <string name="dates_spinner">K_dates</string>
+    <string name="debugmode">K_Debug Mode</string>
+    <string name="delete">K_Delete</string>
+    <string name="disbcfm">K_Disbursement Confirmation</string>
+    <string name="disbdet">K_Disbursement Details</string>
+    <string name="disbursment">K_Disbursment</string>
+    <string name="disbvfy">K_Disbursement Verification</string>
+    <string name="dob">K_Date Of Birth</string>
+    <string name="dsb_amt">K_Disbursed Amount</string>
+    <string name="edit_hint">K_Search here</string>
+    <string name="ent_agentid">K_Enter AgentId</string>
+    <string name="ent_cnfmpass">K_Enter Confirm Password</string>
+    <string name="ent_newpass">K_Enter New Password</string>
+    <string name="ent_oldpass">K_Enter Old Password</string>
+    <string name="ent_registrationkey">K_Enter Registration Key</string>
+    <string name="error">Error</string>
+    <string name="error_close">K_error_close</string>
+    <string name="exit">K_Do you want to exit?</string>
+    <string name="exit_title">K_Egalite Mobile App</string>
+    <string name="gender">K_Gender</string>
+    <string name="hello">K_Sign in</string>
+    <string name="hint_enter_amount">K_enter amount</string>
+    <string name="hint_enter_narrative">K_enter narrative</string>
+    <string name="hint_enterpostion">K_enter position</string>
+    <string name="hint_searchbyname">K_Search by Name/Acc</string>
+    <string name="ipaddress_redister">K_Server Ip</string>
+    <string name="language">K_Language</string>
+    <string name="language_eng">K_English</string>
+    <string name="language_khmer">K_Khmer</string>
+    <string name="lastSync">K_Last Sync</string>
+    <string name="lastlogin">K_Last Login</string>
+    <string name="login">K_Login</string>
+    <string name="login_error">K_Login Error</string>
+    <string name="logout">K_Logout</string>
+    <string name="main_menu">K_Main Menu</string>
+    <string name="messg_agent">K_Agent Credentials Failed</string>
+    <string name="messg_agentid">K_Please Enter AgentId</string>
+    <string name="messg_agentstatus">K_Agent is not Active</string>
+    <string name="messg_connection">K_Please check your internet connection</string>
+    <string name="messg_credentials">K_Please enter your credentials</string>
+    <string name="messg_daylimitinvalid">K_Your account is Locked, Please check Userid or Password</string>
+    <string name="messg_device">K_Device Credentials Failed</string>
+    <string name="messg_devicestatus">K_Device is not Active</string>
+    <string name="messg_enterpostion">K_Please enter position</string>
+    <string name="messg_invalid">K_Invalid Userid or Password</string>
+    <string name="messg_language">K_Language Mismatch</string>
+    <string name="messg_mobileno">K_Invalid Mobile Number</string>
+    <string name="messg_password">K_Please enter your Password</string>
+    <string name="messg_registerkey">K_Please Enter Registration Key</string>
+    <string name="messg_set_cnfmpassword">K_Please Enter Confirm Password</string>
+    <string name="messg_set_password">K_Please Enter Password</string>
+    <string name="messg_sync">K_Please Sync the Data for Transcation</string>
+    <string name="messg_userid">K_Please enter your UserId</string>
+    <string name="modify">K_Amendment</string>
+    <string name="msg_amt_paid">K_Please enter Repayment amount</string>
+    <string name="msg_amt_validation">K_Repayment Amount should not be greater than Amount to be Paid.</string>
+    <string name="msg_amt_zero">K_Repayment Amount Should not be zero</string>
+    <string name="msg_disbursment_done">K_Disbursment Completed</string>
+    <string name="msg_narrative">K_Please Enter Narrative</string>
+    <string name="msg_no_data">K_No details found</string>
+    <string name="msg_no_funds">K_No Enough Funds</string>
+    <string name="msg_payment_done">K_Payment Done</string>
+    <string name="msg_txn_error">K_Disbursement Cannot Be Proccessed</string>
+    <string name="msg_txn_fail">K_Transaction Failed</string>
+    <string name="msg_txn_success">K_Transaction Success</string>
+    <string name="narrative">K_Narrative</string>
+    <string name="newpassword">K_Please Enter NewPassword</string>
+    <string name="no">K_No</string>
+    <string name="noOfInstallments">No.of Installment</string>
+    <string name="off">K_Off</string>
+    <string name="ok">K_Ok</string>
+    <string name="oldpassword">K_Please Enter OldPassword</string>
+    <string name="on">K_On</string>
+    <string name="opencash">K_Opening\nBalance</string>
+    <string name="opencashldpi">K_OPEN\nCASH</string>
+    <string name="password_signin">K_Password</string>
+    <string name="please_wait">K_Please wait</string>
+    <string name="position">K_Position</string>
+    <string name="previoustxn">K_Previous Transaction</string>
+    <string name="ragistrationkey_redister">K_Registration key</string>
+    <string name="recg">K_Mobile Top Up</string>
+    <string name="redReqDt">Redeem Req Date</string>
+    <string name="repay">K_Repayment</string>
+    <string name="repay_amt">K_Repayment Amount</string>
+    <string name="repaydet">K_Repayment Details</string>
+    <string name="repayment">K_Repayment</string>
+    <string name="repayvrfy">K_Repayment Details Verification</string>
+    <string name="rpy_narrative">K_Narrative</string>
+    <string name="sanction_amt">K_Sanction Amount</string>
+    <string name="screen_dsb_agenda">K_Disbursement Agenda</string>
+    <string name="screen_dsb_entry">K_Disbursement Entry</string>
+    <string name="screen_dsb_history">K_Disbursement History</string>
+    <string name="screen_dsb_history_details">K_Disbursement Details</string>
+    <string name="screen_dsb_print">K_Disbursement print</string>
+    <string name="screen_dsb_verify">K_Disbursement Verify</string>
+    <string name="screen_mycustomers">K_MyCustomers</string>
+    <string name="screen_rpy_agenda">K_Repayment Agenda</string>
+    <string name="screen_rpy_customer_details">K_MyCustomer Details</string>
+    <string name="screen_rpy_entry">K_Repayment Entry</string>
+    <string name="screen_rpy_history">K_Repayment History</string>
+    <string name="screen_rpy_history_details">K_Repayment Details</string>
+    <string name="screen_rpy_print">K_Repayment Print</string>
+    <string name="screen_rpy_verify">K_Repayment Verify</string>
+    <string name="selectLang">K_Language (Select Application Language)</string>
+    <string name="selectTheme">K_Theme (Select Application Theme)</string>
+    <string name="select_laon">K_Select the Loan Account Number</string>
+    <string name="selected_ac_no">K_Selected ACNo</string>
+    <string name="set_cnf_password">K_Confirm Password</string>
+    <string name="set_ok">K_Ok</string>
+    <string name="set_password">K_Password</string>
+    <string name="set_title">K_Set Password</string>
+    <string name="setcashpostion">K_Set Cash Position</string>
+    <string name="setting_error">K_Settings Error</string>
+    <string name="setting_tiltle">K_Settings</string>
+    <string name="settle_amt">Settle Amount</string>
+    <string name="signup">K_SignUp</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="submit">K_Submit</string>
+    <string name="submit_changepass">K_Submit</string>
+    <string name="submit_forgetpass">K_Submit</string>
+    <string name="sync">K_Sync</string>
+    <string name="textview">K_Agenda</string>
+    <string name="theme">K_Theme</string>
+    <string name="theme_dark">K_Dark</string>
+    <string name="theme_light">K_Light</string>
+    <string name="title_activity_lst_details">K_LstDetails</string>
+    <string name="title_changepass">K_Change Password</string>
+    <string name="title_forget">K_Forgot Password</string>
+    <string name="transfer">K_Foreign Exchange</string>
+    <string name="txnNo">Txn No</string>
+    <string name="txn_status">K_Transaction Status</string>
+    <string name="txndt">K_Txn Date</string>
+    <string name="txnid">K_Txn Id</string>
+    <string name="txnstatus">K_Txn Status</string>
+    <string name="txv_about">K_About</string>
+    <string name="txv_about_messg">K_The Egalite app is helpful for Loan officer to keep records. The Egalite app is helpful for Loan officer to keep records. </string>
+    <string name="txv_forgetpass"><u>K_Forgot Password</u></string>
+    <string name="unsynctransaction">K_Unsynced Transaction</string>
+    <string name="userid">K_UserId</string>
+    <string name="userid_signin">K_UserId</string>
+    <string name="view">K_Account Details</string>
+    <string name="vview">K_View Details</string>
+    <string name="welcome">K_Welcome</string>
+    <string name="yes">K_Yes</string>
+</resources>

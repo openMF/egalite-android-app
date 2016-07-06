@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/linhphan/Documents/egalite-android-app/app/src/androidTest/assets"/><source path="/Users/linhphan/Documents/egalite-android-app/app/build/generated/assets/shaders/androidTest/free/debug"/></dataSet><dataSet config="free"><source path="/Users/linhphan/Documents/egalite-android-app/app/src/androidTestFree/assets"/></dataSet></merger>

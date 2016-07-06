@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edt_setpassword_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="11"
+                android:hint="@string/set_password"
+                android:inputType="textPassword"
+                android:singleLine="true" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/edt_setpassword_cnfpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="11"
+                android:hint="@string/set_cnf_password"
+                android:inputType="textPassword"
+                android:singleLine="true" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" >
+
+            <Button
+                android:id="@+id/btn_setpassword_ok"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:text="@string/set_ok"
+                android:textAppearance="@style/text_Large"
+                android:textColor="@color/black" >
+            </Button>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txv_minimum_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/minpassword"
+            android:textAppearance="@style/text_Small" />
+
+        <TextView
+            android:id="@+id/txv_maximum_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/maxpassword"
+            android:textAppearance="@style/text_Small" />
+
+        <TextView
+            android:id="@+id/txv_alphanumeric"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/alphanumeric"
+            android:textAppearance="@style/text_Small" />
+    </LinearLayout>
+

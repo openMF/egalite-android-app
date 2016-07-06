@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/layout_padding" >
+
+    <LinearLayout
+        android:id="@+id/linlay_dsb_verify"
+        style="?bordereffect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/layout_padding"
+        tools:ignore="UselessParent" >
+
+        <ImageView
+            android:id="@+id/img_dsb_verify_customer"
+            style="?profileimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="ObsoleteLayoutParam,ContentDescription" />
+
+        <com.bfsi.egalite.support.MyTextView
+            android:id="@+id/txv_dsb_verify_customername"
+            style="?textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingLeft="10dp"
+            android:text="  David Moyes "
+            android:textAppearance="@style/text_Small"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <TableLayout
+        style="?bordereffect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linlay_dsb_verify"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/lay_between_padding"
+        android:padding="@dimen/layout_padding" >
+
+        <LinearLayout
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_ac_ref_no"
+                style="?textTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text="@string/cbsRefNo"
+                android:textAppearance="@style/text_Small"
+                tools:ignore="DuplicateIds,HardcodedText" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_ac_ref_ac_val"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight"
+                tools:ignore="DuplicateIds,HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_agent_id"
+                style="?textTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text="@string/AgentId"
+                android:textAppearance="@style/text_Small"
+                tools:ignore="DuplicateIds,HardcodedText" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_agent_id_val"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight"
+                tools:ignore="DuplicateIds,HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_customer_id"
+                style="?textTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text="@string/customer_id"
+                android:textAppearance="@style/text_Small"
+                tools:ignore="DuplicateIds,HardcodedText" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_customer_id_val"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight"
+                tools:ignore="DuplicateIds,HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_ccy_code"
+                style="?textTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text="@string/ccy"
+                android:textAppearance="@style/text_Small"
+                tools:ignore="DuplicateIds,HardcodedText" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_ccy_code_val"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight"
+                tools:ignore="DuplicateIds,HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_component"
+                style="?textTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text="@string/component"
+                android:textAppearance="@style/text_Small"
+                tools:ignore="DuplicateIds,HardcodedText" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_component_val"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight"
+                tools:ignore="DuplicateIds,HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_agenda_amt"
+                style="?textTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text="@string/Agendaamt"
+                android:textAppearance="@style/text_Small"
+                tools:ignore="DuplicateIds,HardcodedText" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_agenda_amt_val"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight"
+                tools:ignore="DuplicateIds,HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_disb_type"
+                style="?textTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text="@string/DisbType"
+                android:textAppearance="@style/text_Small"
+                tools:ignore="DuplicateIds,HardcodedText" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_disb_val"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight"
+                tools:ignore="DuplicateIds,HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_payindiactor"
+                style="?textTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text="@string/pay_indicator"
+                android:textAppearance="@style/text_Small"
+                tools:ignore="DuplicateIds,HardcodedText" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_payindiactor_val"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight"
+                tools:ignore="DuplicateIds,HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_input_amt"
+                style="?textTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text="@string/settle_amt"
+                android:textAppearance="@style/text_Small"
+                tools:ignore="DuplicateIds,HardcodedText" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/edt_dsb_verify_input_amt_val"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight"
+                tools:ignore="DuplicateIds,HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linlay_narrative"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_narrative"
+                style="?textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text="@string/narrative"
+                android:textAppearance="@style/text_Small"
+                tools:ignore="DuplicateIds,HardcodedText" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_dsb_verify_narrative_val"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight"
+                tools:ignore="DuplicateIds,HardcodedText" />
+        </LinearLayout>
+    </TableLayout>
+
+</RelativeLayout>

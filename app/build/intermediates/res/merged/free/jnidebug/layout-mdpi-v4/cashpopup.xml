@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/layout_padding" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accountdetails"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+
+    <TableLayout
+        android:id="@+id/table_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_padding"
+        android:background="@color/white"
+        android:padding="@dimen/layout_padding"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical|horizontal" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:text="@string/cust_name"
+                android:textAppearance="@style/text_Small" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_cashpopup_name"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text=""
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:text="@string/cashaccno"
+                android:textAppearance="@style/text_Small" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_cashpopup_accno"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text=""
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:text="@string/cashaccid"
+                android:textAppearance="@style/text_Small" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_cashpopup_cashaccid"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text=""
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                style="?textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:text="@string/acctype"
+                android:textAppearance="@style/text_Small" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_cashpopup_acctype"
+                style="?textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text=""
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:weightSum="1.0" >
+
+            <com.bfsi.egalite.support.MyTextView
+                style="?textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:text="@string/locationcode"
+                android:textAppearance="@style/text_Small" />
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_cashpopup_locationcode"
+                style="?textTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.5"
+                android:text=""
+                android:textAppearance="@style/text_Small"
+                android:textColor="@color/textlight" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_cash_popup_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/table_lay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/lay_between_padding"
+        android:text="@string/close"
+        android:textAppearance="@style/text_Medium" />
+
+</RelativeLayout>

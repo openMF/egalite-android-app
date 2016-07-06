@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/debug/drawable-xxhdpi-v4/imgsearchpressed.png",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/drawable-xxhdpi/imgsearchpressed.png"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/debug/drawable-xxhdpi-v4/imgsearchunpress.png",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/drawable-xxhdpi/imgsearchunpress.png"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/debug/drawable-xxhdpi-v4/plus.png",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/drawable-xxhdpi/plus.png"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/debug/drawable-xxhdpi-v4/minus.png",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/drawable-xxhdpi/minus.png"
+    }
+]

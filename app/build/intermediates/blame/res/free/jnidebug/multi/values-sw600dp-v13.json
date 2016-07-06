@@ -1,0 +1,1676 @@
+[
+    {
+        "outputFile": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/values-sw600dp-v13/values-sw600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 284
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 5,
+                        "startOffset": 753,
+                        "endLine": 30,
+                        "endColumn": 12,
+                        "endOffset": 986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 289,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 579
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 254,
+                        "endLine": 20,
+                        "endColumn": 12,
+                        "endOffset": 548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 584,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 739
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 589,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 744,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 1526
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1167,
+                        "endLine": 48,
+                        "endColumn": 12,
+                        "endOffset": 1961
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1531,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 1677
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 1969,
+                        "endLine": 52,
+                        "endColumn": 12,
+                        "endOffset": 2117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1682,
+                    "endLine": 39,
+                    "endColumn": 12,
+                    "endOffset": 1845
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 994,
+                        "endLine": 34,
+                        "endColumn": 12,
+                        "endOffset": 1159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 1850,
+                    "endLine": 42,
+                    "endColumn": 12,
+                    "endOffset": 2000
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 175,
+                        "startColumn": 4,
+                        "startOffset": 5517,
+                        "endLine": 177,
+                        "endColumn": 12,
+                        "endOffset": 5669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2005,
+                    "endLine": 45,
+                    "endColumn": 12,
+                    "endOffset": 2111
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 3697,
+                        "endLine": 110,
+                        "endColumn": 12,
+                        "endOffset": 3805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2116,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 2234
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2368,
+                        "endLine": 64,
+                        "endColumn": 12,
+                        "endOffset": 2488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2239,
+                    "endLine": 51,
+                    "endColumn": 12,
+                    "endOffset": 2344
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 3920,
+                        "endLine": 118,
+                        "endColumn": 12,
+                        "endOffset": 4027
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2349,
+                    "endLine": 54,
+                    "endColumn": 12,
+                    "endOffset": 2455
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 2614,
+                        "endLine": 72,
+                        "endColumn": 12,
+                        "endOffset": 2722
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 2460,
+                    "endLine": 57,
+                    "endColumn": 12,
+                    "endOffset": 2567
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 4266,
+                        "endLine": 130,
+                        "endColumn": 12,
+                        "endOffset": 4375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 2572,
+                    "endLine": 60,
+                    "endColumn": 12,
+                    "endOffset": 2676
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 2963,
+                        "endLine": 84,
+                        "endColumn": 12,
+                        "endOffset": 3069
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 2681,
+                    "endLine": 63,
+                    "endColumn": 12,
+                    "endOffset": 2802
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 4,
+                        "startOffset": 4628,
+                        "endLine": 142,
+                        "endColumn": 12,
+                        "endOffset": 4751
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 2807,
+                    "endLine": 66,
+                    "endColumn": 12,
+                    "endOffset": 2924
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 3328,
+                        "endLine": 97,
+                        "endColumn": 12,
+                        "endOffset": 3447
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 2929,
+                    "endLine": 69,
+                    "endColumn": 12,
+                    "endOffset": 3044
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 4503,
+                        "endLine": 138,
+                        "endColumn": 12,
+                        "endOffset": 4620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 3049,
+                    "endLine": 72,
+                    "endColumn": 12,
+                    "endOffset": 3160
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 3207,
+                        "endLine": 93,
+                        "endColumn": 12,
+                        "endOffset": 3320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 3165,
+                    "endLine": 75,
+                    "endColumn": 12,
+                    "endOffset": 3272
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 4035,
+                        "endLine": 122,
+                        "endColumn": 12,
+                        "endOffset": 4144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 3277,
+                    "endLine": 78,
+                    "endColumn": 12,
+                    "endOffset": 3385
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 2730,
+                        "endLine": 76,
+                        "endColumn": 12,
+                        "endOffset": 2840
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 3390,
+                    "endLine": 81,
+                    "endColumn": 12,
+                    "endOffset": 3494
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 4152,
+                        "endLine": 126,
+                        "endColumn": 12,
+                        "endOffset": 4258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 3499,
+                    "endLine": 84,
+                    "endColumn": 12,
+                    "endOffset": 3604
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 2848,
+                        "endLine": 80,
+                        "endColumn": 12,
+                        "endOffset": 2955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 3609,
+                    "endLine": 87,
+                    "endColumn": 12,
+                    "endOffset": 3719
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 4383,
+                        "endLine": 134,
+                        "endColumn": 12,
+                        "endOffset": 4495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 3724,
+                    "endLine": 90,
+                    "endColumn": 12,
+                    "endOffset": 3842
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 3079,
+                        "endLine": 89,
+                        "endColumn": 12,
+                        "endOffset": 3199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 3847,
+                    "endLine": 93,
+                    "endColumn": 12,
+                    "endOffset": 3937
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 5,
+                        "startOffset": 5116,
+                        "endLine": 161,
+                        "endColumn": 12,
+                        "endOffset": 5208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 3942,
+                    "endLine": 96,
+                    "endColumn": 12,
+                    "endOffset": 4036
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 5413,
+                        "endLine": 173,
+                        "endColumn": 12,
+                        "endOffset": 5509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 4041,
+                    "endLine": 99,
+                    "endColumn": 12,
+                    "endOffset": 4129
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 5013,
+                        "endLine": 157,
+                        "endColumn": 12,
+                        "endOffset": 5103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 4134,
+                    "endLine": 102,
+                    "endColumn": 12,
+                    "endOffset": 4223
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 5216,
+                        "endLine": 165,
+                        "endColumn": 12,
+                        "endOffset": 5307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 4228,
+                    "endLine": 105,
+                    "endColumn": 12,
+                    "endOffset": 4322
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 4884,
+                        "endLine": 152,
+                        "endColumn": 12,
+                        "endOffset": 4980
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 4327,
+                    "endLine": 108,
+                    "endColumn": 12,
+                    "endOffset": 4415
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 5315,
+                        "endLine": 169,
+                        "endColumn": 12,
+                        "endOffset": 5405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 4420,
+                    "endLine": 111,
+                    "endColumn": 12,
+                    "endOffset": 4508
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 4786,
+                        "endLine": 148,
+                        "endColumn": 12,
+                        "endOffset": 4876
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 4513,
+                    "endLine": 114,
+                    "endColumn": 12,
+                    "endOffset": 4614
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 3586,
+                        "endLine": 106,
+                        "endColumn": 12,
+                        "endOffset": 3689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 4619,
+                    "endLine": 117,
+                    "endColumn": 12,
+                    "endOffset": 4721
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2256,
+                        "endLine": 60,
+                        "endColumn": 12,
+                        "endOffset": 2360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 4726,
+                    "endLine": 120,
+                    "endColumn": 12,
+                    "endOffset": 4822
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 3480,
+                        "endLine": 102,
+                        "endColumn": 12,
+                        "endOffset": 3578
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 4827,
+                    "endLine": 123,
+                    "endColumn": 12,
+                    "endOffset": 4924
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2149,
+                        "endLine": 56,
+                        "endColumn": 12,
+                        "endOffset": 2248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 4929,
+                    "endLine": 126,
+                    "endColumn": 12,
+                    "endOffset": 5026
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 3813,
+                        "endLine": 114,
+                        "endColumn": 12,
+                        "endOffset": 3912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 5031,
+                    "endLine": 129,
+                    "endColumn": 12,
+                    "endOffset": 5139
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 2496,
+                        "endLine": 68,
+                        "endColumn": 12,
+                        "endOffset": 2606
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/values-sw600dp-v13/values-sw600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 68,
+                    "endOffset": 119
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 68,
+                        "endOffset": 119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 124,
+                    "endColumn": 69,
+                    "endOffset": 189
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 124,
+                        "endColumn": 69,
+                        "endOffset": 189
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 194,
+                    "endColumn": 73,
+                    "endOffset": 263
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 194,
+                        "endColumn": 73,
+                        "endOffset": 263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 268,
+                    "endColumn": 75,
+                    "endOffset": 339
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 268,
+                        "endColumn": 75,
+                        "endOffset": 339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 344,
+                    "endColumn": 58,
+                    "endOffset": 398
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 344,
+                        "endColumn": 58,
+                        "endOffset": 398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 403,
+                    "endColumn": 70,
+                    "endOffset": 469
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 70,
+                        "endOffset": 469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 474,
+                    "endColumn": 67,
+                    "endOffset": 537
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 474,
+                        "endColumn": 67,
+                        "endOffset": 537
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 542,
+                    "endColumn": 54,
+                    "endOffset": 592
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 542,
+                        "endColumn": 54,
+                        "endOffset": 592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 597,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 826
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 5,
+                        "startOffset": 753,
+                        "endLine": 30,
+                        "endColumn": 12,
+                        "endOffset": 986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 831,
+                    "endLine": 25,
+                    "endColumn": 12,
+                    "endOffset": 1121
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 254,
+                        "endLine": 20,
+                        "endColumn": 12,
+                        "endOffset": 548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1126,
+                    "endLine": 28,
+                    "endColumn": 12,
+                    "endOffset": 1281
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 589,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1286,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 2068
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1167,
+                        "endLine": 48,
+                        "endColumn": 12,
+                        "endOffset": 1961
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2073,
+                    "endLine": 44,
+                    "endColumn": 12,
+                    "endOffset": 2219
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 1969,
+                        "endLine": 52,
+                        "endColumn": 12,
+                        "endOffset": 2117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2224,
+                    "endLine": 47,
+                    "endColumn": 12,
+                    "endOffset": 2387
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 994,
+                        "endLine": 34,
+                        "endColumn": 12,
+                        "endOffset": 1159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2392,
+                    "endLine": 50,
+                    "endColumn": 12,
+                    "endOffset": 2542
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 175,
+                        "startColumn": 4,
+                        "startOffset": 5517,
+                        "endLine": 177,
+                        "endColumn": 12,
+                        "endOffset": 5669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2547,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 2653
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 3697,
+                        "endLine": 110,
+                        "endColumn": 12,
+                        "endOffset": 3805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 2658,
+                    "endLine": 56,
+                    "endColumn": 12,
+                    "endOffset": 2776
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2368,
+                        "endLine": 64,
+                        "endColumn": 12,
+                        "endOffset": 2488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 2781,
+                    "endLine": 59,
+                    "endColumn": 12,
+                    "endOffset": 2886
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 3920,
+                        "endLine": 118,
+                        "endColumn": 12,
+                        "endOffset": 4027
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 2891,
+                    "endLine": 62,
+                    "endColumn": 12,
+                    "endOffset": 2997
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 2614,
+                        "endLine": 72,
+                        "endColumn": 12,
+                        "endOffset": 2722
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 3002,
+                    "endLine": 65,
+                    "endColumn": 12,
+                    "endOffset": 3109
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 4266,
+                        "endLine": 130,
+                        "endColumn": 12,
+                        "endOffset": 4375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 3114,
+                    "endLine": 68,
+                    "endColumn": 12,
+                    "endOffset": 3218
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 2963,
+                        "endLine": 84,
+                        "endColumn": 12,
+                        "endOffset": 3069
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 3223,
+                    "endLine": 71,
+                    "endColumn": 12,
+                    "endOffset": 3344
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 4,
+                        "startOffset": 4628,
+                        "endLine": 142,
+                        "endColumn": 12,
+                        "endOffset": 4751
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 3349,
+                    "endLine": 74,
+                    "endColumn": 12,
+                    "endOffset": 3466
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 3328,
+                        "endLine": 97,
+                        "endColumn": 12,
+                        "endOffset": 3447
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 3471,
+                    "endLine": 77,
+                    "endColumn": 12,
+                    "endOffset": 3586
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 4503,
+                        "endLine": 138,
+                        "endColumn": 12,
+                        "endOffset": 4620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 3591,
+                    "endLine": 80,
+                    "endColumn": 12,
+                    "endOffset": 3702
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 3207,
+                        "endLine": 93,
+                        "endColumn": 12,
+                        "endOffset": 3320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 3707,
+                    "endLine": 83,
+                    "endColumn": 12,
+                    "endOffset": 3814
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 4035,
+                        "endLine": 122,
+                        "endColumn": 12,
+                        "endOffset": 4144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 3819,
+                    "endLine": 86,
+                    "endColumn": 12,
+                    "endOffset": 3927
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 2730,
+                        "endLine": 76,
+                        "endColumn": 12,
+                        "endOffset": 2840
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 3932,
+                    "endLine": 89,
+                    "endColumn": 12,
+                    "endOffset": 4036
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 4152,
+                        "endLine": 126,
+                        "endColumn": 12,
+                        "endOffset": 4258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 4041,
+                    "endLine": 92,
+                    "endColumn": 12,
+                    "endOffset": 4146
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 2848,
+                        "endLine": 80,
+                        "endColumn": 12,
+                        "endOffset": 2955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 4151,
+                    "endLine": 95,
+                    "endColumn": 12,
+                    "endOffset": 4261
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 4383,
+                        "endLine": 134,
+                        "endColumn": 12,
+                        "endOffset": 4495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 4266,
+                    "endLine": 98,
+                    "endColumn": 12,
+                    "endOffset": 4384
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 3079,
+                        "endLine": 89,
+                        "endColumn": 12,
+                        "endOffset": 3199
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 4389,
+                    "endLine": 101,
+                    "endColumn": 12,
+                    "endOffset": 4479
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 5,
+                        "startOffset": 5116,
+                        "endLine": 161,
+                        "endColumn": 12,
+                        "endOffset": 5208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 4484,
+                    "endLine": 104,
+                    "endColumn": 12,
+                    "endOffset": 4578
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 171,
+                        "startColumn": 4,
+                        "startOffset": 5413,
+                        "endLine": 173,
+                        "endColumn": 12,
+                        "endOffset": 5509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4583,
+                    "endLine": 107,
+                    "endColumn": 12,
+                    "endOffset": 4671
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 5013,
+                        "endLine": 157,
+                        "endColumn": 12,
+                        "endOffset": 5103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 4676,
+                    "endLine": 110,
+                    "endColumn": 12,
+                    "endOffset": 4765
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 163,
+                        "startColumn": 4,
+                        "startOffset": 5216,
+                        "endLine": 165,
+                        "endColumn": 12,
+                        "endOffset": 5307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 4770,
+                    "endLine": 113,
+                    "endColumn": 12,
+                    "endOffset": 4864
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 4884,
+                        "endLine": 152,
+                        "endColumn": 12,
+                        "endOffset": 4980
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 4869,
+                    "endLine": 116,
+                    "endColumn": 12,
+                    "endOffset": 4957
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 167,
+                        "startColumn": 4,
+                        "startOffset": 5315,
+                        "endLine": 169,
+                        "endColumn": 12,
+                        "endOffset": 5405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 4962,
+                    "endLine": 119,
+                    "endColumn": 12,
+                    "endOffset": 5050
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 4786,
+                        "endLine": 148,
+                        "endColumn": 12,
+                        "endOffset": 4876
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 5055,
+                    "endLine": 122,
+                    "endColumn": 12,
+                    "endOffset": 5156
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 3586,
+                        "endLine": 106,
+                        "endColumn": 12,
+                        "endOffset": 3689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 5161,
+                    "endLine": 125,
+                    "endColumn": 12,
+                    "endOffset": 5263
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2256,
+                        "endLine": 60,
+                        "endColumn": 12,
+                        "endOffset": 2360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 5268,
+                    "endLine": 128,
+                    "endColumn": 12,
+                    "endOffset": 5364
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 3480,
+                        "endLine": 102,
+                        "endColumn": 12,
+                        "endOffset": 3578
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 5369,
+                    "endLine": 131,
+                    "endColumn": 12,
+                    "endOffset": 5466
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 2149,
+                        "endLine": 56,
+                        "endColumn": 12,
+                        "endOffset": 2248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 5471,
+                    "endLine": 134,
+                    "endColumn": 12,
+                    "endOffset": 5568
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 3813,
+                        "endLine": 114,
+                        "endColumn": 12,
+                        "endOffset": 3912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 5573,
+                    "endLine": 137,
+                    "endColumn": 12,
+                    "endOffset": 5681
+                },
+                "from": {
+                    "file": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/values-sw600dp/styles.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 2496,
+                        "endLine": 68,
+                        "endColumn": 12,
+                        "endOffset": 2606
+                    }
+                }
+            }
+        ]
+    }
+]

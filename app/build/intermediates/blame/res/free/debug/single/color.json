@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/debug/color/vpi__light_theme.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/debug/color/vpi__dark_theme.xml",
+        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/color/vpi__dark_theme.xml"
+    }
+]

@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="?bordereffect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <RadioGroup
+                    android:id="@+id/enrol_resident"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radioresidance"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/resident"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <RadioButton
+                        android:id="@+id/radiononresidance"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="@string/nonresident"
+                        android:textAppearance="@style/text_Medium" />
+                </RadioGroup>
+
+                <Spinner
+                    android:id="@+id/spinner_nationalty"
+                    android:layout_width="285dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_ab_default_example"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="?bordereffect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/lay_between_padding"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/personal_info"
+                    android:textAppearance="@style/text_Large"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/edt_enrol_firstname"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:digits="qwertzuiopasdfghjklyxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
+                        android:ems="10"
+                        android:hint="@string/firstname"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:textAppearance="@style/text_Medium" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/edt_enrol_lastname"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:digits="qwertzuiopasdfghjklyxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
+                        android:ems="10"
+                        android:hint="@string/lastname"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:textAppearance="@style/text_Medium" >
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/edt_enrol_middlename"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:digits="qwertzuiopasdfghjklyxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
+                        android:ems="10"
+                        android:hint="@string/middlename"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:textAppearance="@style/text_Medium" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/edt_enrol_dob"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:editable="false"
+                        android:ems="10"
+                        android:focusable="false"
+                        android:hint="@string/dateofbirth"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:textAppearance="@style/text_Medium" >
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/img_enrol_calender"
+                        style="?calenderimage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp" />
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/enrol_radioSex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radioMale"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/male"
+                        android:textAppearance="@style/text_Medium" />
+
+                    <RadioButton
+                        android:id="@+id/radioFemale"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="@string/female"
+                        android:textAppearance="@style/text_Medium" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="?bordereffect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/lay_between_padding"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/address_info"
+                    android:textAppearance="@style/text_Large"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edt_enrol_address1"
+                    android:layout_width="560dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:ems="10"
+                    android:hint="@string/address1"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textAppearance="@style/text_Medium" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edt_enrol_address2"
+                    android:layout_width="560dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:ems="10"
+                    android:hint="@string/address2"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textAppearance="@style/text_Medium" >
+                </EditText>
+                
+                <EditText
+                    android:id="@+id/edt_enrol_address3"
+                    android:layout_width="560dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:ems="10"
+                    android:hint="@string/address3"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textAppearance="@style/text_Medium" >
+                </EditText>
+                <EditText
+                    android:id="@+id/edt_enrol_address4"
+                    android:layout_width="560dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:ems="10"
+                    android:hint="@string/address4"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textAppearance="@style/text_Medium" >
+                </EditText>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/edt_enrol_state"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:digits="qwertzuiopasdfghjklyxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM"
+                        android:ems="10"
+                        android:hint="@string/state"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:textAppearance="@style/text_Medium" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/edt_enrol_zip"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:ems="10"
+                        android:hint="@string/zipcode"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLength="6"
+                        android:textAppearance="@style/text_Medium" >
+                    </EditText>
+
+                    <Spinner
+                        android:id="@+id/spinner_country"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/spinner_ab_default_example"
+                        android:spinnerMode="dropdown" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="?bordereffect"
+                android:layout_width="570dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/lay_between_padding"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/type"
+                    android:textAppearance="@style/text_Large"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioGroup
+                        android:id="@+id/enrol_accounttype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radioindividual"
+                            style="?textTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/individual"
+                            android:textAppearance="@style/text_Medium" />
+
+                        <RadioButton
+                            android:id="@+id/radiongroup"
+                            style="?textTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/group"
+                            android:textAppearance="@style/text_Medium" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linlay_groupspinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Spinner
+                        android:id="@+id/spin_enroll_groupID"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spinner_ab_default_example"
+                        android:spinnerMode="dropdown" />
+
+                    <Button
+                        android:id="@+id/btn_enroll_groupID"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/groupid" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linlay_poc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="@string/poc"
+                        android:textAppearance="@style/text_Medium"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/enrol_redgrop_poc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radiopocyes"
+                            style="?textTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/yes"
+                            android:textAppearance="@style/text_Medium" />
+
+                        <RadioButton
+                            android:id="@+id/radiopocno"
+                            style="?textTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:text="@string/no"
+                            android:textAppearance="@style/text_Medium" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="?bordereffect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/lay_between_padding"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    style="?textTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/other_info"
+                    android:textAppearance="@style/text_Large"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/edt_enrol_email"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/emailid"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:textAppearance="@style/text_Medium" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/edt_enrol_contactno"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/contactno"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLength="15"
+                        android:textAppearance="@style/text_Medium" >
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Spinner
+                        android:id="@+id/spinner_marital"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/spinner_ab_default_example"
+                        android:spinnerMode="dropdown" />
+
+                    <Spinner
+                        android:id="@+id/spinner_profession"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/spinner_ab_default_example"
+                        android:spinnerMode="dropdown" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edt_enrol_remarks"
+                    android:layout_width="560dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:digits="0123456789qwertzuiopasdfghjklyxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM "
+                    android:ems="10"
+                    android:hint="@string/remarks"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textAppearance="@style/text_Medium" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <Button
+                    android:id="@+id/id_enrol_nextbutton"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/next"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+            
+           
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

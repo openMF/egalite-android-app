@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rellay_repay_customer_listitem"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="false" >
+
+    <com.bfsi.egalite.support.MyTextView
+        android:id="@+id/txv_repay_customer_name"
+        style="?textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/layout_padding"
+        android:text=""
+        android:textAppearance="@style/text_Medium" />
+
+    <com.bfsi.egalite.support.MyTextView
+        android:id="@+id/txv_repay_customer_custid"
+        style="?textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/layout_padding"
+        android:text=""
+        android:textAppearance="@style/text_Medium" />
+
+    <com.bfsi.egalite.support.MyTextView
+        android:id="@+id/txv_repay_customer_phoneno"
+        style="?textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/list_menuid"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/layout_padding"
+        android:textAppearance="@style/text_Medium" />
+
+</RelativeLayout>

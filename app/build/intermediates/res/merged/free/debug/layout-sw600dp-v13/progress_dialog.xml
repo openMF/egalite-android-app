@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:components="http://schemas.android.com/apk/res/com.wvr.widget"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textColor="@android:color/black" />
+
+    <com.bfsi.egalite.support.TextProgressBar
+        android:id="@+id/progressBarWithText"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:maxHeight="30dp"
+        android:minHeight="30dp"
+        android:padding="@dimen/paddingText"
+        android:progress="70"
+        android:textAppearance="@style/text_Medium"
+       />
+
+</LinearLayout>
