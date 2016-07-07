@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--Title bar padding  -->
+    <dimen name="TitleIcon">8dp</dimen>
+    <dimen name="layout_padding">8dp</dimen>
+    <dimen name="lay_between_padding">16dp</dimen>
+    <dimen name="lay_error_padding">10dp</dimen>
+    <dimen name="padding_home">10dp</dimen>
+    <dimen name="padding_edittext">4dp</dimen>
+    <dimen name="radiopadding">-5dp</dimen>
+    
+    
+    
+
+</resources>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RawToBmp_V0.01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/RawToBmp_V0.01.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

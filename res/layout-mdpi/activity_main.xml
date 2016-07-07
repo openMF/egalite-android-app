@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <GridView
+                android:id="@+id/grid"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:columnWidth="60dp"
+                android:gravity="center_horizontal"
+                android:horizontalSpacing="20dp"
+                android:numColumns="auto_fit"
+                android:padding="5dp"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="5dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="#ff0000" />
+
+            <ListView
+                android:id="@+id/list_all"
+                android:layout_width="match_parent"
+                android:layout_height="382dp"
+            android:layout_weight="2"
+                android:cacheColorHint="#00000000"
+                android:paddingTop="5dp" >
+            </ListView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="#ff0000" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

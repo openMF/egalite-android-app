@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rellay_cust_agenda_listitem"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal" >
+    
+     <View
+        android:id="@+id/view_color_agendalist"
+        android:layout_width="4dp"
+        android:layout_alignParentLeft="true"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true" />
+
+    <com.bfsi.egalite.support.MyTextView
+        android:id="@+id/txv_cust_agen_col_listitem_name"
+        style="?textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/layout_padding"
+        android:text=""
+        android:ems="8"
+        android:textAppearance="@style/text_Medium" />
+
+    <com.bfsi.egalite.support.MyTextView
+        android:id="@+id/txv_cust_agen_col_listitem_accno"
+        style="?textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/layout_padding"
+        android:text=""
+        android:ems="8"
+        android:textAppearance="@style/text_Medium" />
+
+    <com.bfsi.egalite.support.MyTextView
+        android:id="@+id/txv_cust_agen_col_listitem_amtdue"
+        style="?textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/layout_padding"
+        android:text=""
+        android:ems="8"
+        android:textAppearance="@style/text_Medium" />
+
+</RelativeLayout>

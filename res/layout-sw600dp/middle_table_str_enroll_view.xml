@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?bordereffect"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="@dimen/lay_between_padding"
+    android:orientation="vertical"
+    android:padding="1dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1.2" >
+
+        <LinearLayout
+            android:id="@+id/linlay_hist_custname"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.4"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_custname"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:text="@string/Name"
+                android:textAppearance="@style/text_Medium" />
+
+            <ImageView
+                android:id="@+id/img_custnamearrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:src="@drawable/arrowdown" />
+        </LinearLayout>
+
+        <View
+            style="?view"
+            android:layout_width="1dp"
+           android:layout_height="40dp"
+            android:layout_gravity="center_vertical" />
+
+        <LinearLayout
+            android:id="@+id/linlay_hist_enrollid"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.4"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_enrollid"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:text="@string/enrollid"
+                android:textAppearance="@style/text_Medium" />
+
+            <ImageView
+                android:id="@+id/img_enrollidarrow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:src="@drawable/arrowdown"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <View
+            style="?view"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical" />
+
+        <LinearLayout
+            android:id="@+id/linlay_hist_contactno"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.4"
+            android:gravity="center_vertical|center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <com.bfsi.egalite.support.MyTextView
+                android:id="@+id/txv_contactno"
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:text="@string/contactnumber"
+                android:textAppearance="@style/text_Medium" />
+
+            <ImageView
+                android:id="@+id/img_contactnoarrow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:src="@drawable/arrowdown"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        style="?view"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" />
+
+    <ListView
+        android:id="@+id/list_historyenroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

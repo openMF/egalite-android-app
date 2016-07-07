@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EGALITE</string>
+    
+
+    <!-- dsb_list_values -->
+    <string name="btnTxt_agenda">របៀបវារៈ</string>
+    <string name="btnTxt_entry">Txn.Entry</string>
+    <string name="btnTxt_history">Txn.History</string>
+    <string name="btnTxt_customer">អតិថិជន</string>
+    <string name="column_cname">ឈ្មោះអតិថិជន</string>
+    <string name="column_acno">លេខគណនី</string>
+    <string name="narrative">ការពិពណ៌នា</string>
+    <string name="column_area">Area</string>
+    <string name="column_amount">ចំនួនទឹកប្រាក់</string>
+    <string name="edit_hint">ស្វែងរកនៅទីនេះ</string>
+    <string name="dates_spinner">កាលបរិច្ឆេទ</string>
+    <string name="column_cname_ldpi">ឈ្មោះ</string>
+    <string name="amt_dsb_till_dt">ផ្តល់ប្រាក់កម្ចីរហូតដល់កាលបរិច្ឆេទ</string>
+    <string name="amt_to_b_dsb">ការផ្តល់ប្រាក់កម្ចីបច្ចុប្បន្ន</string>
+    <string name="dsb_amt">ចំនួនទឹកប្រាក់កម្ចី</string>
+
+    <!-- Base layout bottom tab text -->
+    <string name="Home">ដំបូង</string>
+    <string name="Ad.disburse">កម្ចី</string>
+    <string name="Ad.repay">បង្កាន់ដៃទទួលប្រាក់</string>
+    <string name="Enrol">ការចុះឈ្មោះ</string>
+
+    <!-- login_screen_values -->
+    <string name="login">ការចូលទៅក្នុងប្រព័ន្ធ</string>
+    <string name="userid_signin">លេខសំគាល់អ្នកប្រើប្រាស់</string>
+    <string name="password_signin">លេខសម្ងាត់</string>
+    <string name="btn_login">ការចូលទៅក្នុងប្រព័ន្ធ</string>
+    <string name="bottom_title">Developed by Bfsi Software Consulting Pvt Ltd</string>
+    <string name="txv_forgetpass"><u>ភ្លេចលេខសម្ងាត់</u></string>
+
+    <!-- Signup_screen_values -->
+    <string name="signup">ចុះឈ្មោះ</string>
+    <string name="agentid_register">លេខសំគាល់ភ្នាក់ងារ</string>
+    <string name="userid">UserId</string>
+    <string name="ragistrationkey_redister">លេខសំគាស់ការចុះឈ្មោះ</string>
+    <string name="ipaddress_redister">អាស័យដ្ឋានម៉ាស៊ីនមេ</string>
+    <string name="btn_register">ចុះឈ្មោះ</string>
+
+    <!-- custmer values -->
+    <string name="customer_column_cname">ឈ្មោះអតិថិជន</string>
+    <string name="customer_column_phonenumber">លេខទូរស័ព្ទ</string>
+    <string name="customer_column_city">ទីក្រុង</string>
+
+    <!-- Login validation values -->
+    <string name="MFB00001">កំហុសក្នុងការចូលទៅក្នងប្រព័ន្ធ</string>
+    <string name="MFB00002">Sync Info</string>
+    <string name="MFB00003">Please check your internet connection</string>
+    <string name="MFB00004">ព័ត៌មានបញ្ជាក់អត្តសញ្ញាណឧបករណ៌បរាជ័យ</string>
+    <string name="MFB00005">ព័ត៌មានបញ្ជាក់អត្តសញ្ញាណភ្នាក់ងារបរាជ័យ</string>
+    <string name="MFB00006">Please enter your credentials</string>
+    <string name="MFB00007">Please enter your UserId</string>
+    <string name="MFB00008">Please enter your Password</string>
+    <string name="MFB00009">Invalid Mobile Number</string>
+    <string name="MFB00010">Invalid Userid or Password</string>
+    <string name="MFB000011">សូមផ្ទេរទិន្នន័យសម្រាប់ប្រត្តិបត្តិការ</string>
+    <string name="MFB000012">គណនីរបស់អ្នកត្រូវបានជាប់សោ</string>
+
+    <!-- Entry form validation values -->
+    <string name="MFB00013">កំហុសក្នុងការបញ្ចូល</string>
+    <string name="MFB00014">វាលមិនគួរត្រូវបានទទេ។</string>
+    <string name="MFB00015">ចំនួនទឹកប្រាក់កម្ចី និង ចំនួនទឹកប្រាក់ដែលបញ្ចូលគួរតែស្មើគ្នា</string>
+
+    <!-- CashListView values -->
+    <string name="welcome">សូមស្វាគមន៌</string>
+    <string name="ccy">រូបិយវត្ថុ</string>
+    <string name="cashin">ចំនួនទឹកប្រាក់ចូល</string>
+    <string name="cashout">ចំនួនទឹកប្រាក់ចេញ</string>
+    <string name="opencash">ចំនួនទឹកប្រាក់តម្កល់</string>
+    <string name="cashpostion">ចំនួនទឹកប្រាក់បច្ចុប្បន្ន</string>
+    <string name="lastlogin">ការចូលទៅកាន់ប្រព័ន្ធលើកចុងក្រោយ</string>
+    <string name="opencashldpi">OPEN\nCASH</string>
+
+    <!-- Repayment -->
+    <string name="Name">ឈ្មោះ</string>
+    <string name="LoanAcNo">លេខគណនី</string>
+    <string name="Location">Location</string>
+    <string name="amount">ចំនួនទឹកប្រាក់</string>
+    <string name="CustId">លេខអតិថិជន</string>
+    <string name="PhNo">លេខទូរស័ព្ទ</string>
+    <string name="txnid">Txn Id</string>
+    <string name="txndt">Txn Date</string>
+    <string name="txnstatus">Txn Status</string>
+    <string name="type">Type</string>
+    <string name="amountpaid">Paid</string>
+    <string name="sanction_amt">ចំនួនទឹកប្រាក់ដែលបានអនុម័ត</string>
+    <string name="amt_paid_till_dt">ផ្តល់ប្រាក់កម្ចីរហូតដល់កាលបរិច្ឆេទ</string>
+    <string name="select_laon">លេខគណនីដែលបានជ្រើសរើស</string>
+    <string name="amt_due">ចំនួនទឹកប្រាក់ដែលជំពាក់</string>
+    <string name="repay_amt">ចំនួនទឹកប្រាក់សង</string>
+    <string name="rpy_narrative">ការពិពណ៌នា</string>
+    <string name="dob">ថ្ងៃ ខែ ឆ្នាំកំណើត</string>
+    <string name="gender">ភេទ</string>
+    <string name="cust_address">អាស័យដ្ឋាន</string>
+    <string name="cust_city">ទីក្រុង</string>
+    <string name="cust_state">រដ្ឋ</string>
+    <string name="cust_country">ប្រទេស</string>
+    <string name="selected_ac_no">ជ្រើសរើសលេខគណនីឥណទាន</string>
+    <string name="txn_status">ស្ថានភាពនៃប្រតិបត្តិការ</string>
+    <string name="payment_ccy">រូបិយវត្ថុនៃការសង</string>
+    <string name="All">ទាំងអស់</string>
+    <string name="previoustxn">ប្រតិបត្តិការមុន</string>
+    <string name="hint_enter_amount">ចំនួនទឹកប្រាក់</string>
+    <string name="hint_enter_narrative">ការពិពណ៌នា</string>
+    <string name="hint_searchbyname">ស្វែងរកតាមរយៈឈ្មោះ/លេខគណនី</string>
+    <string name="paid_amt">ចំនួនទឹកប្រាក់ដែលបានទូទាត់</string>
+    <string name="overdue">Over Due</string>
+    <string name="DueTillDate">DueTillDate</string>
+
+    <!-- Repayment/disbursement validation values -->
+    <string name="msg_payment_done">Payment Done</string>
+    <string name="msg_txn_success">ប្រតិបត្តិការបានជោគជ័យ</string>
+    <string name="msg_txn_fail">ប្រតិបត្តិការបានបរាជ័យក្នុងការ</string>
+    <string name="msg_narrative">សូមបញ្ចូលនិទានកថា</string>
+    <string name="msg_amt_paid">សូមបញ្ចូលចំនួនទឹកប្រាក់ដែលត្រូវសង</string>
+    <string name="msg_amt_zero">ចំនួនទឹកប្រាក់ដែលត្រូវសងមិនគួរស្មើសូន្យទេ</string>
+    <string name="msg_amt_validation">ចំនួនទឹកប្រាក់ដែលត្រូវសងមិនគួរច្រើនជាងចំនួនទឹកប្រាក់ជំពាក់ទេ</string>
+    <string name="msg_no_data">No details found</string>
+
+    <!-- Disbursement Validation values -->
+    <string name="all_fields_null">Please fill the mandatory fileds</string>
+    <string name="msg_disbursment_done">Disbursment Completed</string>
+    <string name="msg_no_funds">រកមិនឃើញគ្រប់គ្រាន់</string>
+    <string name="msg_txn_error">Disbursement Cannot Be Proccessed</string>
+
+    <!-- loading -->
+    <string name="please_wait">Please wait</string>
+
+    <!-- Setting Preference -->
+    <string name="setting_tiltle">ការកំណត់</string>
+    <string name="selectLang">ភាសា (ជ្រើសរើសភាសារបស់ប្រព័ន្ធ)</string>
+    <string name="selectTheme">ស្បែក (ជ្រើសរើសស្បែករបស់ប្រព័ន្ធ)</string>
+    <string name="language">ភាសា </string>
+    <string name="theme">ស្បែក</string>
+    <string name="changepass">ប្តូរលេខសម្ងាត់</string>
+    <string name="about">អំពី</string>
+    <string name="sync">ផ្ទេរ</string>
+    <string name="language_eng">ភាសាអង់គ្លេស</string>
+    <string name="language_khmer">ភាសាខ្មែរ</string>
+    <string name="language_tagalog">Tagalog</string>
+    <string name="language_swahili">Swahili</string>
+    <string name="theme_light">ភ្លឺ</string>
+    <string name="theme_dark">ងងឹត</string>
+    <string name="changepassword">ប្តូរលេខសម្ងាត់</string>
+    <string name="debugmode">របៀបកែកំហុស</string>
+    <string name="setcashpostion">កំណត់ទីតាំងសាច់ប្រាក់</string>
+    <string name="logout">ចាកចេញពីប្រព័ន្ធ</string>
+    
+    <string name="CashPosition">ចំនួនទឹកប្រាក់បច្ចុប្បន្ន</string>
+    <string name="Date">Date</string>
+
+    <!-- Messages for DoExit -->
+    <string name="exit_title">Egalite Mobile App</string>
+    <string name="exit">Do you want to exit?</string>
+
+    <!-- Messages for Change password -->
+    <string name="title_changepass">ប្តូរលេខសម្ងាត់</string>
+    <string name="ent_oldpass">បញ្ចូលលេខសម្ងាត់ចាស់</string>
+    <string name="ent_newpass">បញ្ចូលលេខសម្ងាត់ថ្មី</string>
+    <string name="ent_cnfmpass">បញ្ចូលលេខសម្ងាត់បញ្ជាក់</string>
+    <string name="submit_changepass">ដាក់សំណើរ</string>
+    <string name="cancel_changepass">បោះបង់</string>
+    <!-- Setting Screen Password Validation values -->
+    <string name="setting_error">Settings Error</string>
+    <string name="oldpassword">សូមបញ្ចូលលេខសម្ងាត់ចាស់</string>
+    <string name="oldpasswordcurr">Please Enter Currect OldPassword</string>
+    <string name="newpassword">សូមបញ្ចូលលេខសម្ងាត់ថ្មី</string>
+    <string name="cnfermpassword">សូមបញ្ចូលលេខសម្ងាត់បញ្ជាក់</string>
+    <string name="passnotmatch">New password and confirm password are not same</string>
+
+    <!-- Messages for Forgetpassword -->
+    <string name="title_forget">ភ្លេចលេខសម្ងាត់</string>
+    <string name="ent_agentid">លេខសំគាល់ភ្នាក់ងារ</string>
+    <string name="ent_registrationkey">លេខសំគាស់ការចុះឈ្មោះ</string>
+    <string name="submit_forgetpass">ដាក់សំណើរ</string>
+    <string name="cancel_forgetpass">បោះបង់</string>
+    <string name="messg_agentid">សូមបញ្ចូល លេខសំគាល់ភ្នាក់ងារ</string>
+    <string name="messg_registerkey">សូមបញ្ចូល លេខសំគាស់ការចុះឈ្មោះ</string>
+
+    <!-- Error handling messages -->
+    <string name="error">Error</string>
+    <string name="ArrayIndexOutOfBoundsException">ArrayIndexOutOfBoundsException</string>
+    <string name="ClassNotFoundException">ClassNotFoundException</string>
+    <string name="IndexOutOfBoundsException">IndexOutOfBoundsException</string>
+    <string name="NullPointerException">NullPointerException</string>
+    <string name="NumberFormatException">NumberFormatException</string>
+    <string name="RuntimeException">RuntimeException</string>
+    <string name="Exception">Exception</string>
+    <string name="error_close">error_close</string>
+
+    <!-- Set Password Messages -->
+    <string name="set_title">កំណត់ពាក្យសម្ងាត់</string>
+    <string name="set_password">លេខសម្ងាត់</string>
+    <string name="set_cnf_password">បញ្ជាក់ពាក្យសម្ងាត់</string>
+    <string name="set_ok">Ok</string>
+    <string name="messg_set_password">សូមបញ្ចូលពាក្យសម្ងាត់</string>
+    <string name="messg_set_cnfmpassword">សូមបញ្ចូលលេខសម្ងាត់បញ្ជាក់</string>
+    <string name="messg_set_chekpassword">ពាក្យសម្ងាត់ឬអះអាងពាក្យសម្ងាត់គឺមិនដូចគ្នា</string>
+    <string name="messg_set_paswordlength">សូមពិនិត្យមើលប្រវែងពាក្យសម្ងាត់</string>
+
+    <!-- Common Error -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="close">នៅជិត</string>
+    <string name="submit">ដាក់សំណើរ</string>
+    <string name="cancel">បោះបង់</string>
+    <string name="ok">Ok</string>
+    <string name="delete">Delete</string>
+
+    <!-- Setting preff -->
+    <string-array name="languageArray">
+        <item>English</item>
+        <item>Khmer</item>
+    </string-array>
+    <string-array name="languageValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="themeArray">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="themeValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- SCREEN HEADING -->
+    <string name="screen_dsb_agenda">របៀបវារៈក្នុងការផ្តល់ប្រាក់កម្ចី</string>
+    <string name="screen_dsb_entry">ធាតុនៃការផ្តល់ប្រាក់កម្ចី</string>
+    <string name="screen_dsb_verify">ធាតុនៃការផ្តល់ប្រាក់កម្ចី</string>
+    <string name="screen_dsb_print">ធាតុនៃការផ្តល់ប្រាក់កម្ចី</string>
+    <string name="screen_dsb_history">ប្រវត្តិនៃការផ្តល់ប្រាក់កម្ចី</string>
+    <string name="screen_dsb_history_details">ព័ត៌មានលំអិតការនៃការផ្តល់ប្រាក់កម្ចី</string>
+    <string name="screen_mycustomers">អតិថិជនរបស់ខ្ញុំ</string>
+    <string name="screen_rpy_agenda">របៀបវារៈនៃការសង</string>
+    <string name="screen_rpy_entry">ធាតុនៃការសង</string>
+    <string name="screen_rpy_verify">ធាតុនៃការសង</string>
+    <string name="screen_rpy_print">ធាតុនៃការសង</string>
+    <string name="screen_rpy_history">ប្រវត្តិនៃការសងប្រាក់</string>
+    <string name="screen_rpy_history_details">ព័ត៌មានលំអិតការនៃការសងប្រាក់</string>
+    <string name="screen_rpy_customer_details">ព័ត៌មានលំអិតអតិថិជនរបស់ខ្ញុំ</string>
+    <string name="screen_enrol_new">ចុះឈ្មោះ</string>
+
+    <!-- About Screen -->
+    <string name="txv_about">អំពី</string>
+    <string name="txv_about_messg">The Egalite app is helpful for Loan officer to keep records. The Egalite app is helpful for Loan officer to keep records. </string>
+    <string name="service_agentdetails">/rest/agent</string>
+    <string name="service_devicedetails"> /rest/device</string>
+    <string name="service_login">/rest/reg/login</string>
+    <string name="service_registration">/rest/reg/registration</string>
+    <string name="service_registrationconfirmation">/rest/reg/registrationConfirm</string>
+    <string name="service_forgetkey">/rest/reg/forgetKey</string>
+    <string name="service_cashsettlement">/rest/cashSettlement</string>
+    <string name="service_customer">/rest/customers/detail</string>
+    <string name="service_customerconfirmation">/rest/customers/confirm</string>
+    <string name="service_loan">/rest/loan/detail</string>
+    <string name="service_loanconfirmation">/rest/loan/confirm</string>
+    <string name="service_parameters">/rest/parameters</string>
+    <string name="service_postsync">/rest/transaction/post</string>
+    <string name="service_beginsync">/rest/transaction/begin</string>
+    <string name="service_fileupload">/rest/file</string>
+    <string name="service_currency">/rest/currency</string>
+    <string name="service_customerinfo">/rest/customer/enrollment</string>
+    <string name="service_enrolSyncbegin">/rest/customer/begin</string>
+    <string name="service_photoup">/rest/customer/uploaddocs/</string>
+
+    <!-- TAbPageIndicator -->
+
+    <string name="Agenda">របៀបវារៈ</string>
+    <string name="Entry">ធាតុ</string>
+    <string name="History">ប្រវត្តិ</string>
+    <string name="Customer">អតិថិជន</string>
+    <string name="New">ព័ត៌មានផ្ទាល់ខ្លួន</string>
+    <string name="Kyc">ភស្តុតាងនៃ KYC</string>
+    <string name="Status">ប្រវត្តិនៃការចុះឈ្មោះ</string>
+
+    <!-- Entry Spinner -->
+    <string name="customer">អតិថិជន</string>
+    <string name="accountNumber">លេខគណនី</string>
+
+    <!-- Switch Button -->
+    <string name="on">On</string>
+    <string name="off">Off</string>
+
+    <!-- Sync values -->
+    <string name="lastSync">ការផ្ទេរលើកចុងក្រោយ</string>
+    <string name="unsynctransaction">Unsynced Transaction</string>
+    <string name="repayment">Repayment</string>
+    <string name="disbursment">Disbursment</string>
+
+    <!-- Set Cash Postion -->
+    <string name="currency">រូបិយវត្ថុ</string>
+    <string name="position">ទីតាំង</string>
+    <string name="hint_enterpostion">បញ្ចូលទីតាំង</string>
+    <string name="messg_enterpostion">សូមបញ្ចូលទីតាំង</string>
+
+    <!-- Debug alert text -->
+    <string name="debug_alert">App debug mode is ON.</string>
+
+    <!-- Enrolment new -->
+    <string name="messg_firstname">សូមបញ្ចូល នាមខ្លួន</string>
+    <string name="messg_lastname">សូមបញ្ចូល នាមត្រកូល</string>
+    <string name="messg_dateofbirth">សូមបញ្ចូល ថ្ងៃ ខែ ឆ្នាំកំណើត</string>
+    <string name="messg_address">សូមបញ្ចូល អាស័យដ្ឋាន</string>
+    <string name="messg_state">សូមបញ្ចូល រដ្ឋ</string>
+    <string name="messg_zip">សូមបញ្ចូល លេខកូដតំបន់</string>
+    <string name="messg_contact">សូមបញ្ចូល លេខទូរស័ព្ទទំនាក់ទំនង</string>
+    <string name="messg_email">សូមបញ្ចូល សារអេឡិចត្រូនិច</string>
+    <string name="messg_nationality">សូមបញ្ចូល សញ្ជាតិ</string>
+    <string name="messg_country">សូមបញ្ចូល ប្រទេស</string>
+    <string name="messg_maritialstatus">សូមបញ្ចូល ស្ថានភាពគ្រួសារ</string>
+    <string name="messg_profession">សូមបញ្ចូល វិជ្ជាជីវៈ</string>
+    <string name="messg_acctype">សូមបញ្ចូល ព័ត៌មានរបស់គណនី</string>
+    <string name="messg_accCurrency">សូមបញ្ចូល រូបិយវត្ថុ</string>
+    <string name="messg_idproof">សូមបញ្ចូល លេខសម្គាល់ភស្តុតាង</string>
+    <string name="messg_idproofdublicate">ស្ទួន លេខសម្គាល់ភស្តុតាង</string>
+    <string name="messg_documentname">Duplicate Document Name is Selected</string>
+    <string name="messg_basicinfo">Please Enter Basic Information</string>
+
+    <!-- Registration Error messages -->
+    <string name="ERROR_ANE">Agent Id doesnot Exist</string>
+    <string name="ERROR_IDI">Invalid device Id</string>
+    <string name="ERROR_IRK">Invalid Registration Key</string>
+
+    <!-- Sync -->
+    <string name="lastsync">ការផ្ទេរលើកចុងក្រោយ</string>
+    <string name="datafetch">ប្រតិបត្តិការនៃការចាប់យកទិន្នន័យ</string>
+    <string name="transcations">1. ប្រតិបត្តិការ</string>
+    <string name="currencysync">2. រូបិយវត្ថុ</string>
+    <string name="customers">3. អតិថិជន</string>
+    <string name="loan">4. កម្ចី</string>
+    <string name="enrolment">5. ចុះឈ្មោះ</string>
+    <string name="syncbtn">ផ្ទេរនៅទីនេះ</string>
+
+    <!-- Enrollment Section -->
+    <!-- Title -->
+    <string name="personal_info">ព័ត៌មានផ្ទាល់ខ្លួន</string>
+    <string name="address_info">អាស័យដ្ឋាន</string>
+    <string name="other_info">ព័ត៌មានផ្សេងៗ</string>
+    <string name="account_info">ព័ត៌មានរបស់គណនី</string>
+    <string name="identification">ការកំណត់អត្តសញ្ញាណ</string>
+    <string name="next">Next</string>
+    <string name="photo">រូបថត</string>
+    <string name="documents">ឯកសារ</string>
+    <string name="enrolment_no">លេខសម្គាល់នៃការចុះឈ្មោះ</string>
+    <string name="status">ស្ថានភាព</string>
+
+    <!-- Enterning fields -->
+    <string name="resident">ជនជាតិដើម</string>
+    <string name="nonresident">ជនជាតិបរទេស</string>
+    <string name="firstname">នាមខ្លួន*</string>
+    <string name="lastname">នាមត្រកូល*</string>
+    <string name="middlename">ឈ្មោះកណ្តាល</string>
+    <string name="dateofbirth">ថ្ងៃ ខែ ឆ្នាំកំណើត*</string>
+    <string name="male">ប្រុស</string>
+    <string name="female">ស្រី</string>
+    <string name="address1">អាស័យដ្ឋាន1*</string>
+    <string name="address2">អាស័យដ្ឋាន2</string>
+    <string name="state">រដ្ឋ</string>
+    <string name="zipcode">លេខកូដតំបន់*</string>
+    <string name="emailid">សារអេឡិចត្រូនិច</string>
+    <string name="contactno">លេខទូរស័ព្ទទំនាក់ទំនង*</string>
+    <string name="remarks">កំណត់សម្គាស់</string>
+    <string name="personal">ព័ត៌មានផ្ទាល់ខ្លួន</string>
+    <string name="joint">ចូលរួម</string>
+
+    <!-- Enrol Id proofs -->
+    <string name="nationalid">National ID</string>
+    <string name="passport">Passport</string>
+    <string name="drivinglicens">Driving Licences</string>
+    <string name="govt.issued.id">Govt.Issued ID</string>
+    <string name="birthcertificate">Birth Certificate</string>
+    <string name="aadhar">Aadhar</string>
+    <string name="widowed">Widowed</string>
+    <string name="residentproof">Resident</string>
+    <string name="familybook">Family Book</string>
+    <string name="idproof">លេខសម្គាល់ភស្តុតាង</string>
+    <string name="addressproof">អាស័យដ្ឋាននៃភស្តុតាង</string>
+    <string name="ageproof">អាយុកាលនៃភស្តុតាង</string>
+    <string name="signatureproof">ហត្ថលេខានៃភស្តុតាង</string>
+    
+     <!-- Error Codes -->
+<!-- <string name="MFB00101">Error - Writing image</string>
+    <string name="MFB00102">Error - File not found Please try again later</string>
+    <string name="MFB00103">Error - Reading cash position</string>
+    <string name="MFB00104">Error - Updating cash position</string>
+    <string name="MFB00105">Error - Inserting currency List</string>
+    <string name="MFB00106">Error - Reading currency list</string>
+    <string name="MFB00107">Error - Reading collection agenda dates</string>
+    <string name="MFB00108">Error - Reading Agenda Collections</string>
+    <string name="MFB00109">Error - Committing collections transaction</string>
+    <string name="MFB00110">Error - Reading the collection history dates</string>
+    <string name="MFB00111">Error - Reading the collection history</string>
+    <string name="MFB00112">Error - Reading the Customer details</string>
+    <string name="MFB00113">Error - Reading the account details </string>
+    <string name="MFB00114">Error - Reading the Transaction details</string>
+    <string name="MFB00115">Error - Committing disbursement Transaction</string>
+    <string name="MFB00116">Error - Reading Disbursment data</string>
+    <string name="MFB00117">Error - Reading Disbursment data till date</string>
+    <string name="MFB00118">Error - Reading Account details in Disbursment </string>
+    <string name="MFB00119">Error - Reading customer account details in Disbursment </string>
+    <string name="MFB00120">Payment Done </string>
+    <string name="MFB00121">Error - Reading customers</string>
+    <string name="MFB00122">Error - Reading the Disbursment history for selected date</string>
+    <string name="MFB00123">Error - Reading the Disbursment history dates</string>
+    <string name="MFB00124">Error - Reading Disbursment Agenda dates</string>
+    <string name="MFB00125">Error - Reading Account numbers</string>
+    <string name="MFB00126">Error - Reading Account details of customer id</string>
+    <string name="MFB00127">Error - Reading Account w.r.t Agenda </string>
+    <string name="MFB00128">Error - Inserting Enrolement details</string>
+    <string name="MFB00129">Error - Inserting Enrolement documents</string>
+    <string name="MFB00130">Error - Inserting Liquidation data</string>
+    <string name="MFB00131">Error - Reading Liquidation data</string>
+    <string name="MFB00132">Error - Updating Liquidation data</string>
+    <string name="MFB00133">Error - Reading payment Agenda dates</string>
+    <string name="MFB00134">Error - Reading Agenda data </string>
+    <string name="MFB00135">Error - Inserting payment Transaction</string>
+    <string name="MFB00136">Error - Reading payment history dates</string>
+    <string name="MFB00137">Error - Reading payment history list</string>
+    <string name="MFB00138">Error - Reading account details</string>
+    <string name="MFB00139">Error - Reading Transaction details of txnid</string>
+    <string name="MFB00140">Error - Reading Transaction  Amount </string>
+    <string name="MFB00141">Error - Reading Agent details</string>
+    <string name="MFB00142">Error - Updating last sync time</string>
+    <string name="MFB00143">Error - Reading device data</string>
+    <string name="MFB00144">Error - Inserting parmaters</string>
+    <string name="MFB00145">Error - Updating user details  </string>
+    <string name="MFB00146">Error - Reading user login details</string>
+    <string name="MFB00147">Error - Reading last sync time</string>
+    <string name="MFB00148">Error - Inserting device data</string>
+    <string name="MFB00149">Error - Reading Disbursment schedules</string>
+    <string name="MFB00150">Error - Reading payment schedules</string>
+    <string name="MFB00151">Error - Reading collection schedules</string>
+    <string name="MFB00152">Error - Inserting Customer data</string>
+    <string name="MFB00153">Error - Inserting Branch data</string>
+    <string name="MFB00154">Error - Inserting Deposit details</string>
+    <string name="MFB00155">Error - Inserting Loans Data</string>
+    <string name="MFB00156">Error - Inserting running cash</string>
+    <string name="MFB00157">Error - Updating password</string>
+    <string name="MFB00158">Error - Reading paramater values</string>
+    <string name="MFB00159">Error - Reading the value of the parmater</string>
+    <string name="MFB00160">Error - Inserting Disbursment agenda</string>
+    <string name="MFB00161">Error - Refreshing Disbursment agenda </string>
+    <string name="MFB00162">Error - Inserting agenda collections</string>
+    <string name="MFB00163">Error - Inserting agenda payments</string>
+    <string name="MFB00164">Error - Inserting agenda repayments</string>
+    <string name="MFB00165">Error - Refreshing agenda repayments </string>
+    <string name="MFB00166">Error - Reading repayment schedules data</string>
+    <string name="MFB00167">Error - Updating agents data</string>
+    <string name="MFB00168">Error - Updating agents password</string>
+    <string name="MFB00169">Error - Deleting device data</string>
+    <string name="MFB00170">Error - Deleting params data</string>
+    <string name="MFB00171">Error - Deleting all branch codes</string>
+    <string name="MFB00172">Error - Reading device id</string>
+    <string name="MFB00173">Error - Inserting currency</string>
+    <string name="MFB00174">Error - Reading customer names</string>
+    <string name="MFB00175">Error - Reading agenda dates</string>
+    <string name="MFB00176">Error - Committing repayment Transaction</string>
+    <string name="MFB00177">Error - Committing prepay Transaction</string>
+    <string name="MFB00178">Error - Reading repayment data for the selected date  </string>
+    <string name="MFB00179">Error - Reading repayment Transaction details</string>
+    <string name="MFB00180">Error - Reading customer details</string>
+    <string name="MFB00181">Error - Reading amountDetail</string>
+    <string name="MFB00182">Error - Reading the customer details</string>
+    <string name="MFB00183">Error - Reading the account schedules</string>
+    <string name="MFB00184">Error - Reading the unpaid schedules</string>
+    <string name="MFB00185">Error - Reading the past payments</string>
+    <string name="MFB00186">Error - Reading the txn history</string>
+    <string name="MFB00187">Error - Committing new request Transaction</string>
+    <string name="MFB00188">Error - Reading the Transaction dates</string>
+    <string name="MFB00189">Error - Reading the request History</string>
+    <string name="MFB00190">Error - Inserting the agenda</string>
+    <string name="MFB00191">Error - Inserting Device Data</string>
+    <string name="MFB00192">Error - Inserting customer Data</string>
+    <string name="MFB00193">Error - Inserting loan Data</string>
+    <string name="MFB00194">Error - Inserting Disbursment schedules Data</string>
+    <string name="MFB00195">Error - Inserting Disbursment agenda</string>
+    <string name="MFB00196">Error - Inserting user login data</string>
+    <string name="MFB00197">Error - Inserting txns</string>
+    <string name="MFB00198">Error - Inserting cash data</string>
+    <string name="MFB00199">Error - Inserting repayment schedule</string>
+    <string name="MFB00200">Error - Inserting repayment agenda</string>
+    <string name="MFB00201">Error - Inserting deposits data</string>
+    <string name="MFB00202">Error - Inserting collections data</string>
+    <string name="MFB00203">Error - Inserting maturity data</string>
+    <string name="MFB00204">Error - reading deposit data</string>
+    <string name="MFB00205">Error - Inserting collection Data</string>
+    <string name="MFB00206">Error - Inserting disbursement Transaction Data</string>
+    <string name="MFB00207">Error - Inserting new request Transaction Data</string>
+    <string name="MFB00208">Error - Inserting  payment Transaction Data</string>
+    <string name="MFB00209">Error - Inserting request Transaction Data</string>
+    <string name="MFB00210">Error - Inserting Redeem request Transaction Data</string>
+    <string name="MFB00211">Error - Inserting repayment request Transaction Data</string>
+    <string name="MFB00212">Error - Reading cash data</string>
+    <string name="MFB00213">Error - Updating Cash Position </string>
+    <string name="MFB00214">Error - Reading Cash Position</string>
+    <string name="MFB00215">Error - Reading currency list </string>
+    <string name="MFB00216">Error - Encryption</string>
+    <string name="MFB00217">Sync is failed, please try again later</string>
+    <string name="MFB00218">Sync is completed successfully</string>
+    <string name="MFB00219">Sync is in progres</string>
+    <string name="MFB00220">Error - Writing Transaction </string>
+    <string name="MFB00221">Error - Reading Transaction </string>
+    <string name="MFB00222">Error - Inserting Transaction </string>
+    <string name="MFB00223">Error - Reading AllSchedules</string>
+    <string name="MFB00224">Error - Reading OverDueSchedulesSum</string>
+    <string name="MFB00225">Error - Reading AllSchedulesSum</string>
+    <string name="MFB00226">Error - Password Validation </string>
+    <string name="MFB00227">Error - In Background Process</string>
+    <string name="MFB00228">Error - While HandlingRequest</string>
+    <string name="MFB00229">Error - Calculating the Sync days</string>
+    <string name="MFB00230">Error - Updating LoginData</string>
+    <string name="MFB00231">Error - Reading Registration Confirmation</string>
+    <string name="MFB00232">Error - Agent Registration Response</string>
+    <string name="MFB00233">Error - while Registration AsyncTask</string>
+    <string name="MFB00234">Error - Reading SyncResponses</string>
+    <string name="MFB00235">Error - Onfling </string>
+    <string name="MFB00236">Error - HandleAgentAndDeviceAnddisplay</string>
+    <string name="MFB00237">Error - Get Response Gson</string>
+    <string name="MFB00238">Error - Reading SyncResponse</string>
+    <string name="MFB00239">Host Name is Valid</string>
+    <string name="MFB00240">Error - SimpleDateFormat </string>
+    <string name="MFB00241">Error - Reading Paramters  </string>
+    <string name="MFB00242">Error - Cash Accounts </string>
+    <string name="MFB00243">Error - </string>
+    <string name="MFB00244">Error - </string>
+    <string name="MFB00245">Error -</string> -->
+    <string name="DisbType">Disb Type</string>
+    <string name="FullPartialIndicator">Full Partial Indicator</string>
+    <string name="AgentId">Agent ID</string>
+    <string name="Agendaamt">Agenda Amt</string>
+    <string name="InputAmount">Input Amount</string>
+    <string name="cbsRefNo">A/C Ref No</string>
+    <string name="settle_amt">Settle Amount</string>
+    <string name="txnNo">Txn No</string>
+    <string name="redReqDt">Redeem Req Date</string>
+    <string name="noOfInstallments">No.of Installment</string>
+</resources>

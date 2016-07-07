@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue">#538ad3</color>
+    <color name="red">#EE1414</color>
+    <color name="transparent">#00000000</color>
+    <color name="green_but">#4d762c</color>
+    <color name="gold_color">#ffd700</color>
+    <color name="dark_blue">#032c6e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_gray">#d8d8d8</color>
+    <color name="littledark_gray">#ADADAD</color>
+    <color name="purple">#B800B8</color>
+    <color name="brown">#A37547</color>
+    <color name="light_orange">#F7A71A</color> 
+    
+    
+    <!-- Light Theme -->
+    <color name="textdark">#000000</color>
+    <color name="textlight">#787678</color>
+    <color name="loginbackground">#9D9D9C</color>
+    <color name="textColor">#000000</color>
+    <color name="titleBar">#E6E6E6</color>
+    <color name="selectedtab">#8B9DC3</color>
+    <color name="lightGrey">#DEDEDE</color>
+    <color name="lightMediumGrey">#A7A7A7</color>
+    
+    <!-- Dark Theme -->
+     <color name="darkGrey">#2B2B2B</color>
+    <color name="darkGreyFaint">#555555</color>
+
+    <!-- TabHOst COlor -->
+    <!-- WHITE -->
+    <color name="tabHostColor">#9D9D9C</color>
+    <color name="tabHostTextColor">#000000</color>
+    <!-- <color name="tabHostTextColor">#262626</color> -->
+
+
+    <!-- Login & Signup Color codes -->
+    <!--
+   <color name="solidbackground">#BBB</color>
+   <color name="parentstroke">#999</color>
+   <color name="childstroke">#DDD</color>
+    -->
+
+    <color name="solidbackground">#9D9D9C</color>
+    <color name="solidbackground2">#F9B948</color>
+    <color name="parentstroke">#5A000000</color>
+    <!-- <color name="childstroke">#F7A71A</color> -->
+    <color name="childstroke">#B8B8B8</color> 
+
+</resources>
