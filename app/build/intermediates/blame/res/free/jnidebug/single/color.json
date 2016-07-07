@@ -28,14 +28,6 @@
         "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/color/vpi__light_theme.xml",
-        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/color/vpi__light_theme.xml"
-    },
-    {
-        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/color/vpi__dark_theme.xml",
-        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/color/vpi__dark_theme.xml"
-    },
-    {
         "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/color/vpi__light_theme.xml",
         "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/color/vpi__light_theme.xml"
     },

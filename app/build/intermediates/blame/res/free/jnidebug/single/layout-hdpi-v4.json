@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/enrolment_newform.xml",
-        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout-hdpi/enrolment_newform.xml"
-    },
-    {
         "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/kycentry.xml",
         "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout-hdpi/kycentry.xml"
     },
@@ -24,32 +20,12 @@
         "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout-hdpi/enrolment_status.xml"
     },
     {
-        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/enrolment_kycproof.xml",
-        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout-hdpi/enrolment_kycproof.xml"
-    },
-    {
-        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/alertdialog.xml",
-        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout-hdpi/alertdialog.xml"
-    },
-    {
-        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/enrolment_biometricproof.xml",
-        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout-hdpi/enrolment_biometricproof.xml"
-    },
-    {
-        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/enrolment_status_listitem.xml",
-        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout-hdpi/enrolment_status_listitem.xml"
-    },
-    {
         "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/alertdialog.xml",
         "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout-hdpi/alertdialog.xml"
     },
     {
         "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/enrolment_biometricproof.xml",
         "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout-hdpi/enrolment_biometricproof.xml"
-    },
-    {
-        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/enrolment_status.xml",
-        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout-hdpi/enrolment_status.xml"
     },
     {
         "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/enrolement_verify.xml",
@@ -64,27 +40,7 @@
         "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout-hdpi/enrolment_kycproof.xml"
     },
     {
-        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/kycverify.xml",
-        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout-hdpi/kycverify.xml"
-    },
-    {
         "merged": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/kycconfirm.xml",
         "source": "/Users/linhphan/Documents/MIFOS/egalite-android-app/app/src/main/res/layout-hdpi/kycconfirm.xml"
-    },
-    {
-        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/enrolement_verify.xml",
-        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout-hdpi/enrolement_verify.xml"
-    },
-    {
-        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/kycentry.xml",
-        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout-hdpi/kycentry.xml"
-    },
-    {
-        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/kycconfirm.xml",
-        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout-hdpi/kycconfirm.xml"
-    },
-    {
-        "merged": "/Users/linhphan/Documents/egalite-android-app/app/build/intermediates/res/merged/free/jnidebug/layout-hdpi-v4/enrolment_historyview.xml",
-        "source": "/Users/linhphan/Documents/egalite-android-app/app/src/main/res/layout-hdpi/enrolment_historyview.xml"
     }
 ]
