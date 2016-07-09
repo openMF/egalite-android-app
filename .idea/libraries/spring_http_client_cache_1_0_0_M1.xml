@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cz.jirutka.spring/spring-http-client-cache/1.0.0.M1/8c0b84e323e98531e86763a66e34ac9a6e543e4e/spring-http-client-cache-1.0.0.M1.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cz.jirutka.spring/spring-http-client-cache/1.0.0.M1/f521146bc2c5a8b3684e861d5eafc6d6e6d36d5c/spring-http-client-cache-1.0.0.M1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
