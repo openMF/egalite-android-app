@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="logback-android-1.0.10-2">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/logback-android-1.0.10-2.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

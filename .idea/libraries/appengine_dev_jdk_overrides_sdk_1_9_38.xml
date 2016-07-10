@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="appengine-dev-jdk-overrides-sdk-1.9.38">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine/appengine-dev-jdk-overrides-sdk/1.9.38/780b7c4b69fe20e4e042c232520f07dc0ad3b102/appengine-dev-jdk-overrides-sdk-1.9.38.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

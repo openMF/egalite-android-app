@@ -1,6 +1,27 @@
 apply plugin: 'com.android.application'
-//apply plugin: 'java'
+//are we using groovy?
+//apply plugin: 'groovy'
 
+
+// why is this using maven central though...
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.3.0'
+       // classpath 'com.crashlytics.tools.gradle:crashlytics-gradle:1.+'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'com.github.triplet.gradle:play-publisher:1.1.4'
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'http://download.crashlytics.com/maven' }
+    maven { url "https://jitpack.io" }
+    maven { url 'http://dl.bintray.com/amulyakhare/maven' }
+}
 
 android {
     compileSdkVersion 23
@@ -12,6 +33,8 @@ android {
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+//        compile gradleApi()
+//        compile localGroovy()
     }
 
     compileOptions {
@@ -36,7 +59,6 @@ android {
         }
 
         sourceSets {
-//intTest
             main {
                 java {
                     srcDir 'src/java'
@@ -64,32 +86,6 @@ android {
 
     }
 }
-
-//test {
-//    filter {
-//        //include specific method in any of the tests
-//        includeTestsMatching "*UiCheck"
-//
-//        //include all tests from package
-//        includeTestsMatching "org.gradle.internal.*"
-//
-//        //include all integration tests
-//        includeTestsMatching "*IntegTest"
-//    }
-//}
-
-//task intTest(type: Jar) {
-//    from sourceSets.intTest.output
-//}
-//
-//task intTestJavadoc(type: Javadoc) {
-//    source sourceSets.intTest.allJava
-//}
-//
-//task intTest(type: Test) {
-//    testClassesDir = sourceSets.intTest.output.classesDir
-//    classpath = sourceSets.intTest.runtimeClasspath
-//}
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.0'
