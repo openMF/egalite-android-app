@@ -33,6 +33,7 @@ android {
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 //        compile gradleApi()
 //        compile localGroovy()
     }
@@ -71,18 +72,19 @@ android {
     }
 
     productFlavors {
-        free {
-            applicationId 'com.example.myapp.free'
-        }
-
-        paid {
-            applicationId 'com.example.myapp.paid'
-        }
+//        free {
+//            applicationId 'com.example.myapp.free'
+//        }
+//
+//        paid {
+//            applicationId 'com.example.myapp.paid'
+//        }
     }
 
     lintOptions {
         abortOnError false
         noLines false
+        disable 'InvalidPackage'
 
     }
 }
