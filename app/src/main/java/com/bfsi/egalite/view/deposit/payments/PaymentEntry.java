@@ -1,6 +1,6 @@
 /**
- * This source IS part OF the EGALITE - Agent Banking Solution System AND IS copyrighted by © 2014 bfsi software consulting pvt.ltd
- * © 2014 bfsi software consulting pvt.ltd - All rights reserved.
+ * This source IS part OF the EGALITE - Agent Banking Solution System AND IS copyrighted by ï¿½ 2014 bfsi software consulting pvt.ltd
+ * ï¿½ 2014 bfsi software consulting pvt.ltd - All rights reserved.
  * No part of this work may be reproduced, stored in a retrieval system, or transmitted in any form or by any means,
  * electronic, mechanical, photocopying, recording or otherwise, 
  * without the prior written permission of bfsi software consulting pvt.ltd 
