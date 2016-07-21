@@ -1,16 +1,12 @@
 apply plugin: 'com.android.application'
-//are we using groovy?
-//apply plugin: 'groovy'
 
 
-// why is this using maven central though...
 buildscript {
     repositories {
         mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.3.0'
-       // classpath 'com.crashlytics.tools.gradle:crashlytics-gradle:1.+'
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
         classpath 'com.github.triplet.gradle:play-publisher:1.1.4'
     }
@@ -34,8 +30,6 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-//        compile gradleApi()
-//        compile localGroovy()
     }
 
     compileOptions {
@@ -72,13 +66,6 @@ android {
     }
 
     productFlavors {
-//        free {
-//            applicationId 'com.example.myapp.free'
-//        }
-//
-//        paid {
-//            applicationId 'com.example.myapp.paid'
-//        }
     }
 
     lintOptions {
@@ -95,9 +82,6 @@ task wrapper(type: Wrapper) {
 
 dependencies {
 
-//    intTestCompile 'junit:junit:4.12'
-//    intTestRuntime 'org.ow2.asm:asm-all:4.0'
-
     compile fileTree(include: ['*.jar'], dir: 'libs')
 
     compile 'com.android.support:support-v4:23.3.0'
@@ -107,17 +91,33 @@ dependencies {
     compile files('libs/ProwessSdkV2.3.6.jar')
     compile files('libs/RawToBmp_V0.01.jar')
     compile 'com.google.api.client:google-api-client-http:1.2.3-alpha'
-//    compile files('libs/httpclient-cache-4.2.3.jar') do i use spring??
+//  compile files('libs/httpclient-cache-4.2.3.jar') do i use spring??
     compile 'cz.jirutka.spring:spring-http-client-cache:1.0.0.M1'
     compile files('libs/mfiRestApi-0.0.1-SNAPSHOT.jar')
     compile 'com.google.appengine:appengine-dev-jdk-overrides-sdk:1.9.38'
-//    compile files('libs/httpmime-4.2.3.jar')
-//    compile files('libs/logback-android-1.0.10-2.jar')
-//    compile files('libs/httpclient-4.2.3.jar')
-//    compile files('libs/httpcore-4.2.2.jar')
-//    compile files('libs/sc-light-jdk15on-1.47.0.2.jar')
-//    compile files('libs/scpkix-jdk15on-1.47.0.2.jar')
-//    compile files('libs/scprov-jdk15on-1.47.0.2.jar')
-//    compile files('libs/slf4j-api-1.7.5.jar')
+
+//  compile files('libs/httpmime-4.2.3.jar')
+//  https://bintray.com/bintray/jcenter/org.apache.sling%3Aorg.apache.sling.commons.mime
+    compile 'org.apache.sling:org.apache.sling.commons.mime:2.1.6'
+
+//  compile files('libs/logback-android-1.0.10-2.jar')
+//  https://bintray.com/bintray/jcenter/org.kie.modules%3Aorg-slf4j-impl-main#
+    compile 'org.kie.modules:org-slf4j-impl-main:6.4.0.Final'
+
+//  compile files('libs/httpclient-4.2.3.jar') are these two compile files similar?
+//  compile files('libs/httpcore-4.2.2.jar')
+//  https://bintray.com/bintray/jcenter/org.apache.felix%3Aorg.apache.felix.http#
+    compile 'org.apache.streams:streams-http:0.2-incubating'
+
+//  compile files('libs/sc-light-jdk15on-1.47.0.2.jar') are these compile files similar?
+//  compile files('libs/scpkix-jdk15on-1.47.0.2.jar')
+//  compile files('libs/scprov-jdk15on-1.47.0.2.jar')
+//  https://bintray.com/bintray/jcenter/com.madgag.spongycastle%3Aprov#
+    compile 'com.madgag.spongycastle:prov:1.54.0.0'
+
+// compile files('libs/slf4j-api-1.7.5.jar')
+// https://bintray.com/bintray/jcenter/org.apache.directory.studio%3Aorg.slf4j.log4j12
+    compile 'org.apache.directory.studio:org.slf4j.api:1.7.2'
+
 
 }
