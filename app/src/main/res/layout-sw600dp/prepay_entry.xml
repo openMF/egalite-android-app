@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txnscreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/layout_padding" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linlay_customer"
+                style="?bordereffect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linlay_prepay_entry"
+                android:padding="@dimen/layout_padding"
+                tools:ignore="UselessParent" >
+
+                <ImageView
+                    android:id="@+id/img_prepay_entry_customer"
+                    style="?profileimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    tools:ignore="ObsoleteLayoutParam,ContentDescription" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_prepay_entry_customername"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text=""
+                        android:textAppearance="@style/text_Medium"
+                        tools:ignore="HardcodedText" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/txv_prepay_entry_custid"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:paddingLeft="10dp"
+                        android:text=""
+                        android:textAppearance="@style/text_Medium"
+                        tools:ignore="HardcodedText" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rellay_dsb_entry_lpg"
+                style="?bordereffect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linlay_customer"
+                android:layout_marginTop="@dimen/lay_between_padding"
+                android:padding="@dimen/layout_padding"
+                tools:ignore="UselessParent" >
+
+                <LinearLayout
+                    android:id="@+id/linlay_entry_loan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/gridselector"
+                    android:paddingBottom="@dimen/layout_padding"
+                    android:paddingTop="@dimen/layout_padding" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/imgl" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/loandetails"
+                        android:textAppearance="@style/text_Medium" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linlay_entry_paidloan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/gridselector"
+                    android:padding="@dimen/layout_padding" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/imgp" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/paidsheduls"
+                        android:textAppearance="@style/text_Medium" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linlay_entry_groups"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/gridselector"
+                    android:padding="@dimen/layout_padding" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/imgg" />
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/groups"
+                        android:textAppearance="@style/text_Medium" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rellay_dsb_entry_lpg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/lay_between_padding" >
+
+                <LinearLayout
+                    style="?bordereffect"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    tools:ignore="UselessLeaf" >
+
+                    <TableLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="@dimen/layout_padding" >
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_entry_cbs_ac_refno"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/cbsRefNo"
+                                android:textAppearance="@style/text_Medium"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_entry_cbs_ac_refno_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_entry_agent_bal"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/agent_balance"
+                                android:textAppearance="@style/text_Medium"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_entry_agent_bal_val"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text=""
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_ccy_code"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/ccy"
+                                android:textAppearance="@style/text_Medium"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_entry_ccy_code_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_entry_componet_name"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/component_name"
+                                android:textAppearance="@style/text_Medium"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_entry_componet_name_val"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text=""
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_agenda_amt"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/Agendaamt"
+                                android:textAppearance="@style/text_Medium"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_entry_agenda_amt_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_comp_start_dt"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/component_startdt"
+                                android:textAppearance="@style/text_Medium"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_entry_comp_start_dt_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <!--
+                             <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_disb_type"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/DisbType"
+                                android:textAppearance="@style/text_Medium"
+                                tools:ignore="HardcodedText" />
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_entry_disb_type_val"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:textAppearance="@style/text_Medium"
+                                android:textColor="@color/textlight"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+                        -->
+
+
+                        <!--
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/redemption_type" />
+
+                            <RadioGroup
+                                android:id="@+id/rad_gro_prepay_entry_redtype"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:orientation="horizontal" >
+
+                                <RadioButton
+                                    android:id="@+id/radbtn_prepay_entry_red_partial"
+                                    style="?textTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/partial"
+                                    android:textAppearance="@style/text_Medium" />
+
+                                <RadioButton
+                                    android:id="@+id/radbtn_prepay_entry_red_full"
+                                    style="?textTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="10dp"
+                                    android:text="@string/full"
+                                    android:textAppearance="@style/text_Medium" />
+                            </RadioGroup>
+                        </LinearLayout>
+                        -->
+
+                        <LinearLayout
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_entry_input_amount"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/InputAmount"
+                                android:textAppearance="@style/text_Medium"
+                                tools:ignore="DuplicateIds,HardcodedText" />
+
+                            <EditText
+                                android:id="@+id/edt_prepay_entry_input_amount_val"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:background="@drawable/searchimg"
+                                android:digits="0123456789."
+                                android:hint="@string/hint_enter_amount"
+                                android:inputType="numberDecimal"
+                                android:textAppearance="@style/text_Medium"
+                                tools:ignore="DuplicateIds,HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linlay_narrative"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:weightSum="1.0" >
+
+                            <com.bfsi.egalite.support.MyTextView
+                                android:id="@+id/txv_prepay_entry_narrative"
+                                style="?textTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:text="@string/rpy_narrative"
+                                android:textAppearance="@style/text_Medium"
+                                tools:ignore="DuplicateIds,HardcodedText" />
+
+                            <EditText
+                                android:id="@+id/edt_prepay_entry_narrative_val"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="0.5"
+                                android:background="@drawable/searchimg"
+                                android:hint="@string/hint_enter_narrative"
+                                android:textAppearance="@style/text_Medium"
+                                tools:ignore="DuplicateIds,HardcodedText" />
+                        </LinearLayout>
+                    </TableLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

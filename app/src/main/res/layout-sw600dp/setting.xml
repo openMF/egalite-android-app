@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding" >
+
+    <!--
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/rellay1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linlay_loginlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.bfsi.egalite.support.MyTextView
+                    android:id="@+id/txv_login_layout_error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <LinearLayout
+                style="?bordereffect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/layout_padding" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        android:id="@+id/textView1"
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/selectLang"
+                        android:textAppearance="@style/text_Large" />
+
+                    <RadioGroup
+                        android:id="@+id/rad_grp_lang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/radbtn_setting_english"
+                                style="?textTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/language_eng"
+                                android:textAppearance="@style/text_Medium" />
+
+                            <RadioButton
+                                android:id="@+id/radbtn_setting_hindi"
+                                style="?textTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:clickable="false"
+                                android:text="@string/language_hindi"
+                                android:textAppearance="@style/text_Medium" />
+
+                            <RadioButton
+                                android:id="@+id/radbtn_setting_bengali"
+                                style="?textTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:clickable="false"
+                                android:text="@string/language_bengali"
+                                android:textAppearance="@style/text_Medium" />
+                        </LinearLayout>
+
+                        <!--
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/radbtn_setting_swahili"
+                                style="?textTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/language_swahili"
+                                android:textAppearance="@style/text_Medium" />
+                        </LinearLayout>
+                        -->
+                    </RadioGroup>
+
+                    <View
+                        style="?view"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/selectTheme"
+                        android:textAppearance="@style/text_Large" />
+
+                    <RadioGroup
+                        android:id="@+id/rad_grp_theme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radbtn_setting_light"
+                            style="?textTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="2dp"
+                            android:text="@string/theme_light"
+                            android:textAppearance="@style/text_Medium" />
+                    </RadioGroup>
+
+                    <View
+                        android:id="@+id/view"
+                        style="?view"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <com.bfsi.egalite.support.MyTextView
+                            style="?textTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:paddingRight="2dp"
+                            android:text="@string/debugmode"
+                            android:textAppearance="@style/text_Large" />
+
+                        <Switch
+                            android:id="@+id/switch_setting_debug"
+                            style="?textTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:paddingRight="2dp" />
+                    </RelativeLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <com.bfsi.egalite.support.MyTextView
+                            style="?textTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:paddingRight="2dp"
+                            android:text="@string/onlinesync"
+                            android:textAppearance="@style/text_Large" />
+
+                        <Switch
+                            android:id="@+id/switch_setting_onlinesync"
+                            style="?textTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:checked="true"
+                            android:paddingRight="2dp" />
+                    </RelativeLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+
+                <!--
+                     <LinearLayout
+                    android:id="@+id/linlay_setting_changepass"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/settingselect"
+                    android:orientation="vertical" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/changepassword"
+                        android:textAppearance="@style/text_Large" />
+
+                    <View
+                        style="?view"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+                -->
+
+
+                <!--
+                <LinearLayout
+                    android:id="@+id/linlay_setting_setcashposition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/settingselect"
+                    android:orientation="vertical" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setcashpostion"
+                        android:textAppearance="@style/text_Large" />
+
+                    <View
+                        style="?view"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+                -->
+
+                <LinearLayout
+                    android:id="@+id/linlay_setting_aboutus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/settingselect"
+                    android:orientation="vertical" >
+
+                    <com.bfsi.egalite.support.MyTextView
+                        style="?textTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/aboutus"
+                        android:textAppearance="@style/text_Large" />
+
+                    <View
+                        style="?view"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linlay_setting_baudrate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <com.bfsi.egalite.support.MyTextView
+                            style="?textTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="@string/baudrate"
+                            android:layout_centerVertical="true"
+                            android:textAppearance="@style/text_Large" />
+
+                        <RadioGroup
+                            android:id="@+id/radio"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:orientation="horizontal" >
+
+                            <RadioButton
+                                android:id="@+id/first_radio"
+                                style="?textTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/baud9600" />
+
+                            <RadioButton
+                                android:id="@+id/second_radio"
+                                style="?textTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/baud115200" />
+                        </RadioGroup>
+                    </RelativeLayout>
+
+                    <View
+                        style="?view"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_exportdbdump"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_padding"
+                    android:text="@string/exportdbdump"
+                    android:textAppearance="@style/text_Large" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

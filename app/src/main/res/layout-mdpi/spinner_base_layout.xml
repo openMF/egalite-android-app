@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <com.bfsi.egalite.support.MyTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="50dp"
+    android:text=""
+    android:textAppearance="@style/text_Small"
+    android:background="@color/transparent"
+    android:textColor="#000000" />

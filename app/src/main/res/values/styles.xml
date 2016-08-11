@@ -1,0 +1,173 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="AlertDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/black</item>
+        
+    </style>
+    
+
+    <style name="StyledIndicators" parent="@android:style/Theme.Light">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/custom_tab_indicator</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textColor">@color/tabHostTextColor</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <item name="android:dividerPadding">10dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">normal</item>
+    </style>
+    <!-- Theme light -->
+    <style name="text_light">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_base_light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="background_light">
+        <item name="android:background">@color/lightGrey</item>
+    </style>
+
+    <style name="view_light">
+        <item name="android:background">@color/lightMediumGrey</item>
+    </style>
+
+    <style name="base_heading_light">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="setting_drawer_light">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="setting_text_light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="border_light">
+        <item name="android:background">@drawable/border</item>
+    </style>
+
+    <style name="tabhostbackground_light">
+        <item name="android:background">@color/tabHostColor</item>
+    </style>
+
+    <style name="profileimage_light">
+        <item name="android:background">@drawable/profile</item>
+    </style>
+
+    <style name="calenderimage_light">
+        <item name="android:background">@drawable/img_calender</item>
+    </style>
+    <!-- Theme Dark -->
+
+    <style name="text_dark">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_base_dark">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="background_dark">
+        <item name="android:background">@color/darkGrey</item>
+    </style>
+
+    <style name="view_dark">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="base_heading_dark">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="setting_drawer_dark">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="setting_text_dark">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="border_dark">
+        <item name="android:background">@drawable/borderdark</item>
+    </style>
+
+    <style name="tabhostbackground_dark">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="profileimage_dark">
+        <item name="android:background">@drawable/profilelight</item>
+    </style>
+
+    <style name="calenderimage_dark">
+        <item name="android:background">@drawable/img_calenderlight</item>
+    </style>
+
+    <!-- Font Sizes -->
+
+    <style name="text_Title">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="text_Nameheading">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- font Sizes -->
+    <style name="text_Large">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="text_ExLarge">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="text_Medium">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="text_Small">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="text_Extra_Small">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="TabTextStyle" parent="@style/Widget.TabPageIndicator">
+        <item name="android:textColor">@color/tabHostTextColor</item>
+    </style>
+
+</resources>

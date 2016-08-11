@@ -1,0 +1,117 @@
+apply plugin: 'com.android.application'
+
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.3.0'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'com.github.triplet.gradle:play-publisher:1.1.4'
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'http://download.crashlytics.com/maven' }
+    maven { url "https://jitpack.io" }
+    maven { url 'http://dl.bintray.com/amulyakhare/maven' }
+}
+
+android {
+
+    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.bfsi.egalite.view"
+        minSdkVersion 14
+        targetSdkVersion 18
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        incremental false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+
+        debug {
+            applicationIdSuffix ".debug"
+        }
+
+        jnidebug {
+            initWith debug
+
+            applicationIdSuffix ".jnidebug"
+            jniDebuggable true
+        }
+
+        sourceSets {
+            main {
+                java {
+                    srcDir 'src/java'
+                }
+                resources {
+                    srcDir 'src/resources'
+                }
+            }
+        }
+    }
+
+    productFlavors {
+    }
+
+    lintOptions {
+        abortOnError false
+        noLines false
+        disable 'InvalidPackage'
+
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
+dependencies {
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    compile 'com.android.support:support-v4:23.3.0'
+    //compile "com.android.support:support-v4:18.0.+"
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    //compile "com.android.support:appcompat-v7:18.0.+"
+    compile 'com.android.support:preference-v7:23.3.0'
+    compile files('libs/ProwessSdkV2.3.6.jar')
+    compile files('libs/RawToBmp_V0.01.jar')
+    compile 'com.google.api.client:google-api-client-http:1.2.3-alpha'
+    compile 'cz.jirutka.spring:spring-http-client-cache:1.0.0.M1'
+    compile files('libs/mfiRestApi-0.0.1-SNAPSHOT.jar')
+    compile 'com.google.appengine:appengine-dev-jdk-overrides-sdk:1.9.38'
+
+
+    compile 'org.apache.httpcomponents:httpclient:4.2.3'
+    compile 'org.apache.httpcomponents:httpclient-cache:4.2.3'
+    compile 'httpcomponents-httpcore:httpcore:4.0-alpha6'
+    compile 'org.apache.httpcomponents:httpmime:4.2.3'
+    compile 'com.github.tony19:logback-android-classic:1.0.10-2'
+    compile 'com.madgag:sc-light-jdk15on:1.47.0.2'
+    compile 'com.madgag:scprov-jdk15on:1.47.0.2'
+    compile 'org.slf4j:slf4j-api:1.7.5'
+
+
+
+
+
+}
